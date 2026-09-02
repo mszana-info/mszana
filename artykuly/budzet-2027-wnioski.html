@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budżet 2027 — do końca września radni składają wnioski. Wymagajmy tego! — Mszana INFO</title>
+    <meta name="description" content="Do końca września radni Gminy Mszana mają czas na złożenie wniosków do budżetu na 2027 rok. Mieszkańcy mogą i powinni wymagać od radnych, by zgłaszali konieczne roboty i zabezpieczali na nie finanse.">
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Fraunces:opsz,wght@9..144,600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        readable: ['Atkinson Hyperlegible', 'system-ui', 'sans-serif'],
+                        display: ['Fraunces', 'serif'],
+                    },
+                    colors: {
+                        warm: { 50:'#fdfaf3', 100:'#f9f0e0', 200:'#f3e8d0', 300:'#e8e0d0', 800:'#4a453e', 900:'#2d2a26' },
+                        sage: { 50:'#f4f7f4', 100:'#e3ebe3', 200:'#c8d9ca', 500:'#6b8f71', 600:'#4a7c59', 700:'#3d6549' }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html { scroll-behavior: smooth; }
+        body { background-color: #fdfaf3; color: #2d2a26; line-height: 1.8; font-size: 17px; }
+        .soft-card { background: #ffffff; border: 1px solid #f0e9db; box-shadow: 0 4px 24px -8px rgba(45,42,38,0.08), 0 1px 4px rgba(45,42,38,0.04); border-radius: 20px; transition: all 0.25s ease; }
+        .soft-card:hover { box-shadow: 0 12px 32px -10px rgba(45,42,38,0.12), 0 4px 12px rgba(0,0,0,0.04); }
+        .info-box { background:#fff8e6; border-left:4px solid #f59e0b; border-radius:12px; padding:14px 18px; }
+        .info-box.red { background:#fdeeee; border-left-color:#e12b26; }
+        .info-box .tag { font-weight:700; display:block; }
+        .art-img { border-radius:16px; border:1px solid #f0e9db; box-shadow: 0 8px 28px -12px rgba(45,42,38,0.18); }
+        .chip { background:#eef2ff; color:#3730a3; border-radius:20px; padding:8px 14px; font-size:14px; font-weight:700; }
+        .chip small { display:block; font-weight:500; color:#4f46a5; }
+    </style>
+</head>
+<body class="font-readable antialiased" id="bodyRoot">
+
+        <!-- ACCESSIBILITY BAR -->
+    <div class="sticky top-0 z-50 bg-warm-50/90 backdrop-blur-md border-b border-warm-200 shadow-sm">
+        <div class="max-w-[1280px] mx-auto px-5 h-[52px] flex items-center justify-between gap-3">
+            <div class="flex items-center gap-2 min-w-0 shrink-0">
+                <a href="mailto:kontakt@mszana.info" onclick="openChat(event)" class="px-3 sm:px-4 h-8 rounded-full bg-teal-600 text-white text-[13px] font-bold inline-flex items-center gap-1.5 whitespace-nowrap" title="Kontakt do redakcji — kliknij, aby napisać">📧 kontakt@mszana.info</a>
+            </div>
+            <div class="flex items-center gap-1.5 sm:gap-2 overflow-x-auto no-scrollbar">
+                <a href="https://www.facebook.com/groups/1245680220713294?locale=pl_PL" target="_blank" rel="noopener" class="px-3 sm:px-4 h-8 rounded-full bg-white border border-warm-200 text-[13px] font-bold inline-flex items-center gap-1.5 whitespace-nowrap" title="Mszana – Przejrzysta Gmina &amp; Sprawy Mieszkańców">f Grupa</a>
+                <a href="https://www.facebook.com/mszana.gmina?locale=pl_PL" target="_blank" rel="noopener" class="px-3 sm:px-4 h-8 rounded-full bg-[#0866FF] text-white text-[13px] font-bold inline-flex items-center gap-1.5 whitespace-nowrap">f Gmina</a>
+                <a href="https://mszana.ug.gov.pl" target="_blank" rel="noopener" class="hidden sm:inline-flex px-3 sm:px-4 h-8 rounded-full bg-sage-600 text-white text-[13px] font-bold items-center gap-1.5 whitespace-nowrap" title="Oficjalna strona Gminy Mszana">
+                    <img src="../assets/herb-mszana.png" alt="Herb Gminy Mszana" class="h-5 w-auto rounded-full border border-white/40">
+                    Gmina Mszana
+                </a>
+                <a href="../#forum" class="px-4 h-8 rounded-full bg-warm-900 text-warm-50 text-[13px] font-bold inline-flex items-center whitespace-nowrap">💬 Forum</a>
+                <span id="viewCounter" title="Liczba wyświetleń strony" class="hidden shrink-0 px-3 h-8 rounded-full bg-white border border-warm-200 text-[12.5px] font-bold inline-flex items-center gap-1.5 whitespace-nowrap">👁️ …</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <header class="max-w-[1280px] mx-auto px-5 pt-7 pb-4">
+        <div class="flex items-center justify-between">
+            <a class='flex items-center gap-3' href='../'>
+                <img src="../assets/logo-mszana-info.png" class="w-11 h-11 rounded-2xl bg-white p-1 shadow-sm border border-warm-200" alt="">
+                <div>
+                    <div class="font-display text-[23px] leading-none tracking-tight text-warm-900 font-bold">Mszana INFO</div>
+                    <div class="text-[11.5px] tracking-[0.12em] uppercase font-bold text-sage-600 mt-0.5">Portal Mieszkańców • Forum • Twój Głos</div>
+                </div>
+            </a>
+            <nav class="hidden lg:flex items-center gap-5 text-[14.5px] font-bold text-warm-900/75">
+                <a class='text-sage-700 bg-sage-50 px-3 py-1 rounded-full border border-sage-200' href='../#aktualnosci'>📰 Aktualności</a>
+                <a class='hover:text-sage-700' href='../#ogloszenia'>Ogłoszenia</a>
+                <a class='hover:text-sage-700' href='../#forum'>Forum</a>
+                <a class='hover:text-sage-700' href='../#mapa'>Mapa</a>
+                <a class='hover:text-sage-700' href='../#kontakt'>Sołtysi</a>
+                <a href="https://mszana.ug.gov.pl" target="_blank" rel="noopener" class="hover:text-sage-700">🏛️ UG Mszana</a>
+                <a href="https://www.facebook.com/mszana.gmina?locale=pl_PL" target="_blank" rel="noopener" class="hover:text-sage-700">f Gmina</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ARTYKUŁ -->
+    <main class="max-w-[880px] mx-auto px-5 pt-4 pb-12">
+        <a class='text-[13.5px] font-bold text-sage-700 hover:text-sage-600' href='../#aktualnosci'>← Wróć na stronę główną</a>
+
+        <div class="flex flex-wrap items-center gap-2 mt-4">
+            <span class="text-[11px] font-bold uppercase tracking-widest px-2.5 py-1 rounded-full bg-amber-100 text-amber-800">💰 Budżet 2027</span>
+            <span class="text-[11px] font-bold uppercase tracking-widest px-2.5 py-1 rounded-full bg-red-100 text-red-800">Ważny termin</span>
+            <span class="text-[13px] text-warm-800/60">Gmina Mszana • sierpień 2026</span>
+        </div>
+
+        <h1 class="font-display text-[34px] sm:text-[42px] leading-[1.1] tracking-tight mt-4">
+            💰 Budżet 2027 — do końca września radni składają wnioski. Wymagajmy tego od radnych!
+        </h1>
+
+        <figure class="mt-6">
+            <img src="../assets/budzet-2027-wnioski.png" alt="Infografika: Budżet 2027 — wnioski radnych do końca września" class="art-img w-full">
+            <figcaption class="text-[13px] text-warm-800/60 mt-2">Budżet 2027 — radni składają wnioski do końca września. Gmina Mszana.</figcaption>
+        </figure>
+
+        <p class="text-[18px] text-warm-800/75 mt-5">
+            <b>Do końca września radni Gminy Mszana mają czas na złożenie wniosków do budżetu na 2027 rok.</b> To moment, w którym określa się, jakie roboty i zadania należy wykonać w przyszłym roku oraz jakie środki trzeba na nie zabezpieczyć. Jako mieszkańcy mamy pełne prawo — a nawet obowiązek — <b>zwracać się do radnych i wymagać złożenia wniosków</b> na prace, które uważamy za konieczne.
+        </p>
+
+        <div class="mt-5 p-5 rounded-2xl bg-amber-50/80 border border-amber-300 border-l-4 border-l-amber-500">
+            <div class="flex items-center gap-2.5">
+                <span class="text-[20px]">📅</span>
+                <span class="font-bold text-[15px] text-amber-900">Kluczowy termin: koniec września 2026 r.</span>
+            </div>
+            <p class="mt-2 text-[14.5px] leading-[1.7] text-warm-900">Wnioski radnych trafiają do projektu budżetu na 2027 rok. Jeśli dane zadanie nie znajdzie się we wniosku na czas, później będzie znacznie trudniej wygospodarować na nie środki.</p>
+        </div>
+
+        <h2 class="font-display text-[26px] font-bold mt-9 mb-3">📋 Co mogą obejmować wnioski radnych?</h2>
+        <ul class="list-disc pl-6 mt-2 space-y-1.5 text-[15px] leading-[1.6] text-warm-800/90">
+            <li><b>drogi i chodniki</b> — remonty, utwardzenia, nowe odcinki, odwodnienia;</li>
+            <li><b>oświetlenie uliczne</b> — nowe lampy, doświetlenie przejść i ścieżek;</li>
+            <li><b>place zabaw, siłownie plenerowe, boiska</b> — budowa i modernizacja;</li>
+            <li><b>infrastrukturę szkolną i przedszkolną</b> — remonty, doposażenie;</li>
+            <li><b>świetlice wiejskie i tereny rekreacyjne</b>;</li>
+            <li><b>bezpieczeństwo</b> — progi zwalniające, monitoring, oznakowanie;</li>
+            <li><b>zieleń i porządek</b> — nasadzenia, kosze, utrzymanie terenów;</li>
+            <li>inne zadania wskazane przez mieszkańców jako pilne.</li>
+        </ul>
+
+        <h2 class="font-display text-[26px] font-bold mt-9 mb-3">🗣️ Dlaczego warto wymagać od radnych złożenia wniosków?</h2>
+        <p>Radni reprezentują mieszkańców — to <b>ich obowiązkiem</b> jest przekazywanie Waszych potrzeb do budżetu. Oczywiście złożenie wniosku nie oznacza automatycznie, że dane zadanie trafi do budżetu: ostateczną propozycję (a potem uchwałę budżetową) przygotowuje <b>Wójt</b> i to on prowadzi politykę inwestycyjną gminy. Jednak <b>wniosek radnego to pierwszy, konieczny krok</b> — bez niego szansa na realizację danego zadania jest praktycznie zerowa.</p>
+        <div class="mt-5 p-5 rounded-2xl bg-sky-50/80 border border-sky-200 border-l-4 border-l-sky-600">
+            <div class="flex items-center gap-2.5">
+                <span class="text-[20px]">🏛️</span>
+                <span class="font-bold text-[15px] text-sky-900">Adnotacja — kto decyduje o budżecie?</span>
+            </div>
+            <p class="mt-2 text-[14.5px] leading-[1.7] text-warm-900">Warto pamiętać, że <b>ostatecznie to radni uchwalają budżet</b> — i to tak naprawdę <b>oni decydują, jakie prace w przyszłym roku będą wykonywane</b>. Wójt przygotowuje jedynie <b>projekt budżetu</b>, ale radni mogą go <b>zmienić</b>, bo to ich kompetencja. Dlatego wnioski radnych mają tak duże znaczenie — a mieszkańcy mają prawo oczekiwać, że radni zgłoszą i poprą zadania, które są dla nas naprawdę potrzebne.</p>
+        </div>
+
+        <div class="info-box amber mt-4">
+            <span class="tag">💡 Pamiętaj</span>
+            Wniosek radnego nie gwarantuje realizacji, ale <b>bez wniosku na pewno nic nie powstanie</b>. Im więcej radnych i mieszkańców popiera daną sprawę, tym większa szansa, że znajdzie się w projekcie budżetu i w uchwale budżetowej na 2027 rok.
+        </div>
+
+        <h2 class="font-display text-[26px] font-bold mt-9 mb-3">✅ Jak mieszkańcy mogą wpłynąć na budżet 2027?</h2>
+        <ol class="list-decimal pl-6 mt-2 space-y-2 text-[15px] leading-[1.65] text-warm-800/90">
+            <li><b>Zidentyfikuj potrzebę</b> — co w Twojej miejscowości wymaga naprawy lub budowy? (droga, chodnik, latarnia, plac zabaw, świetlica…).</li>
+            <li><b>Skontaktuj się z radnym swojego okręgu</b> — przedstaw problem i poproś o złożenie wniosku do budżetu 2027.</li>
+            <li><b>Wymagaj konkrety</b> — zapytaj, czy radny złoży wniosek i co zrobił w tej sprawie. To jego rola reprezentować mieszkańców.</li>
+            <li><b>Zgłoś też na Forum</b> — opublikuj temat, by sąsiedzi mogli go poprzeć 👍. Wspólny głos ma większą siłę.</li>
+            <li><b>Śledź sesje i budżet</b> — podczas prac nad budżetem 2027 sprawdzaj, czy wnioski trafiają do projektu.</li>
+        </ol>
+
+        <div class="mt-6 grid sm:grid-cols-2 gap-4">
+            <div class="soft-card p-5 bg-sage-50/70 border-sage-200">
+                <div class="font-bold text-[15px]">👥 Radni dla Mieszkańca</div>
+                <p class="mt-2 text-[13.5px] leading-[1.6] text-warm-800/85">Oficjalny kontakt do radnych Gminy Mszana z poszczególnych okręgów wyborczych.</p>
+                <a href="https://mszana.ug.gov.pl/kontakt-do-radnych.html" target="_blank" rel="noopener" class="mt-3 inline-flex h-10 px-5 rounded-full bg-sage-600 text-white text-[13.5px] font-bold items-center gap-2 hover:bg-sage-700">Kontakt do radnych →</a>
+            </div>
+            <div class="soft-card p-5 bg-sky-50/70 border-sky-200">
+                <div class="font-bold text-[15px]">🗺️ Okręgi wyborcze</div>
+                <p class="mt-2 text-[13.5px] leading-[1.6] text-warm-800/85">Sprawdź, który radny reprezentuje Twoją ulicę i miejscowość.</p>
+                <a href="https://mszana.ug.gov.pl/wybory-samorzadowe-w-2024-roku.html" target="_blank" rel="noopener" class="mt-3 inline-flex h-10 px-5 rounded-full bg-sky-600 text-white text-[13.5px] font-bold items-center gap-2 hover:bg-sky-700">Okręgi wyborcze 2024 →</a>
+            </div>
+        </div>
+
+        <div class="soft-card p-6 sm:p-8 mt-8 bg-warm-50 border-warm-200">
+            <p class="text-[16px]"><b>📣 Radni mają obowiązek reprezentować mieszkańców.</b> Skoro do końca września mogą składać wnioski do budżetu 2027 — warto, aby każdy z nich złożył wnioski na prace, które są naprawdę potrzebne w naszej gminie. Porozmawiaj ze swoim radnym, wymagaj konkretów i wspólnie zadbajmy o budżet, który służy mieszkańcom Mszany, Połomi i Gogołowej!</p>
+            <div class="flex flex-wrap gap-3 mt-4">
+                <a class='h-10 px-5 rounded-full bg-warm-900 text-white text-[13.5px] font-bold inline-flex items-center' href='../#forum'>💬 Zgłoś potrzebę na Forum</a>
+                <a href="#" onclick="openChat(event)" class="h-10 px-5 rounded-full bg-teal-600 text-white text-[13.5px] font-bold inline-flex items-center gap-2 hover:bg-teal-700">📧 Napisz do redakcji (czat)</a>
+            </div>
+        </div>
+
+        <div class="mt-8 pt-4 border-t border-warm-200 text-[13px] text-warm-800/60">#Budżet2027 #GminaMszana #Radni #WnioskiBudżetowe #WspólnaGmina #Inwestycje</div>
+    </main>
+
+
+    <footer class="max-w-[1280px] mx-auto px-5 pb-10">
+        <div class="border-t border-warm-200 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-[13.5px] text-warm-800/60">
+            <div>Mszana INFO — Portal + Forum Mieszkańców Mszany, Połomi i Gogołowej.<br><span class="text-[12.5px]">Oficjalne kanały gminy: <a href="https://mszana.ug.gov.pl" target="_blank" rel="noopener" class="font-bold text-sage-700 hover:text-sage-600">mszana.ug.gov.pl</a> • <a href="https://www.facebook.com/mszana.gmina?locale=pl_PL" target="_blank" rel="noopener" class="font-bold text-sage-700 hover:text-sage-600">f Gmina (FB)</a></span><br><span class="text-[12.5px]">📧 Kontakt redakcji: <a href="mailto:kontakt@mszana.info" class="font-bold text-sage-700 hover:text-sage-600">kontakt@mszana.info</a></span></div>
+            <span class='flex flex-wrap items-center justify-center gap-3'>
+            <a class='font-bold text-sage-700 hover:text-sage-600' href='rodo.html'>🔒 Polityka prywatności (RODO)</a>
+            <a class='font-bold text-sage-700 hover:text-sage-600' href='../'>← Strona główna</a>
+            </span>
+        </div>
+    </footer>
+
+    <script>
+    </script>
+<!-- CZAT: ASYSTENT MIESZKAŃCA -->
+<button id="chatBubble" onclick="toggleChat()" aria-label="Otwórz czat Asystenta" class="fixed bottom-5 right-5 z-[96] w-14 h-14 rounded-full bg-sage-600 text-white flex items-center justify-center text-[26px] shadow-2xl hover:bg-sage-700 transition transform hover:scale-105" title="Asystent mieszkańca">
+  💬
+</button>
+
+<div id="chatPanel" class="hidden fixed bottom-24 right-5 z-[96] w-[92%] max-w-[380px] bg-white rounded-3xl shadow-2xl border border-warm-200 overflow-hidden">
+  <div class="bg-sage-600 text-white px-5 py-4 flex items-center justify-between">
+    <div class="flex items-center gap-2.5">
+      <span class="w-9 h-9 rounded-full bg-white/20 flex items-center justify-center text-[18px]">🧭</span>
+      <div>
+        <div class="font-bold text-[15px] leading-tight">Asystent mieszkańca</div>
+        <div class="text-[11.5px] text-white/80">napisz do redakcji Mszana INFO</div>
+      </div>
+    </div>
+    <button onclick="toggleChat()" aria-label="Zamknij czat" class="w-8 h-8 rounded-full bg-white/20 hover:bg-white/30 flex items-center justify-center text-[14px]">✕</button>
+  </div>
+
+  <div id="chatFormWrap" class="p-5">
+    <form id="chatForm" class="space-y-3">
+      <div class="grid grid-cols-2 gap-2.5">
+        <div>
+          <label class="text-[11px] font-bold uppercase tracking-widest text-warm-800/60">Imię *</label>
+          <input id="chatImie" required maxlength="60" placeholder="Jan" class="mt-1 w-full h-10 rounded-xl border border-warm-200 px-3 text-[14px]">
+        </div>
+        <div>
+          <label class="text-[11px] font-bold uppercase tracking-widest text-warm-800/60">Nazwisko *</label>
+          <input id="chatNazwisko" required maxlength="80" placeholder="Kowalski" class="mt-1 w-full h-10 rounded-xl border border-warm-200 px-3 text-[14px]">
+        </div>
+      </div>
+      <div>
+        <label class="text-[11px] font-bold uppercase tracking-widest text-warm-800/60">Twój e-mail *</label>
+        <input id="chatEmail" type="email" required maxlength="120" placeholder="jan.kowalski@example.com" class="mt-1 w-full h-10 rounded-xl border border-warm-200 px-3 text-[14px]">
+      </div>
+      <div>
+        <label class="text-[11px] font-bold uppercase tracking-widest text-warm-800/60">Wiadomość *</label>
+        <textarea id="chatWiadomosc" required rows="4" placeholder="Opisz swoją sprawę, pytanie lub pomysł..." class="mt-1 w-full rounded-xl border border-warm-200 p-3 text-[14px]"></textarea>
+      </div>
+      <button type="submit" id="chatSubmit" class="w-full h-11 rounded-full bg-sage-600 text-white font-bold hover:bg-sage-700 transition">📨 Wyślij wiadomość</button>
+      <p class="text-[11.5px] text-warm-800/55 text-center leading-snug">Odpowiemy na podany adres e-mail zwykle w ciągu 48 h.</p>
+    </form>
+    <div id="chatMsg" class="hidden p-4 rounded-2xl bg-emerald-50 border border-emerald-200 text-[14px] text-emerald-900 leading-relaxed">✅ <b>Dziękujemy!</b> Twoja wiadomość została wysłana. Odpowiemy na Twój e-mail.</div>
+  </div>
+</div>
+<script>
+
+// ===== O NAS - rozwijanie =====
+function toggleOnas(){
+  const content = document.getElementById('onasContent');
+  const arrow = document.getElementById('onasArrow');
+  const btn = document.querySelector('#onas button');
+  if(!content) return;
+  const isHidden = content.classList.contains('hidden');
+  content.classList.toggle('hidden', !isHidden);
+  if(arrow) arrow.style.transform = isHidden ? 'rotate(180deg)' : 'rotate(0deg)';
+  if(btn) btn.setAttribute('aria-expanded', String(isHidden));
+  if(isHidden) content.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+
+// ===== CZAT: ASYSTENT MIESZKAŃCA =====
+function openChat(e){
+  if(e) e.preventDefault();
+  const p = document.getElementById('chatPanel');
+  if(p) p.classList.remove('hidden');
+  if(p) p.scrollIntoView({behavior:'smooth', block:'center'});
+}
+function toggleChat(){
+  const p = document.getElementById('chatPanel');
+  if(!p) return;
+  const hidden = p.classList.contains('hidden');
+  p.classList.toggle('hidden', !hidden);
+}
+const chatFormEl = document.getElementById('chatForm');
+if(chatFormEl) chatFormEl.addEventListener('submit', async function(ev){
+  ev.preventDefault();
+  const imie = document.getElementById('chatImie').value.trim();
+  const nazwisko = document.getElementById('chatNazwisko').value.trim();
+  const email = document.getElementById('chatEmail').value.trim();
+  const wiadomosc = document.getElementById('chatWiadomosc').value.trim();
+  const btn = document.getElementById('chatSubmit');
+  const msg = document.getElementById('chatMsg');
+  if(!imie || !nazwisko || !email || !wiadomosc) return;
+  btn.disabled = true; btn.textContent = '⏳ Wysyłanie...';
+  try{
+    // 1) zapis w chmurze (Supabase) — kopia wiadomości
+    try{
+      await fetch('https://batkjqjtwfduyonvjtym.supabase.co/rest/v1/kontakt_widget', {
+        method: 'POST',
+        headers: {
+          'apikey': 'sb_publishable_gUtHCxb0ICrRwqasoV766Q_C10nonpc',
+          'Authorization': 'Bearer sb_publishable_gUtHCxb0ICrRwqasoV766Q_C10nonpc',
+          'Content-Type': 'application/json',
+          'Prefer': 'return=minimal'
+        },
+        body: JSON.stringify({ imie: imie, nazwisko: nazwisko, email: email, wiadomosc: wiadomosc, ts: Date.now() })
+      });
+    }catch(err){ console.warn('Zapis w chmurze nieudany:', err); }
+
+    // 2) wysyłka e-mail na kontakt@mszana.info (FormSubmit AJAX)
+    try{
+      const r = await fetch('https://formsubmit.co/ajax/kontakt@mszana.info', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify({
+          _subject: '🧭 Asystent mieszkańca — wiadomość od ' + imie + ' ' + nazwisko,
+          _template: 'table',
+          imie: imie,
+          nazwisko: nazwisko,
+          email: email,
+          wiadomosc: wiadomosc,
+          _replyto: email
+        })
+      });
+      if(!r.ok) throw new Error('HTTP ' + r.status);
+    }catch(err){
+      console.warn('E-mail nie wysłany przez FormSubmit:', err);
+    }
+  }finally{
+    btn.disabled = false; btn.textContent = '📨 Wyślij wiadomość';
+  }
+  // pokaż potwierdzenie
+  document.getElementById('chatForm').classList.add('hidden');
+  if(msg) msg.classList.remove('hidden');
+});
+
+
+// ===== ANKIETA: FUNDUSZ SOŁECKI =====
+(function(){
+  const SUPA_URL = 'https://batkjqjtwfduyonvjtym.supabase.co';
+  const SUPA_KEY = 'sb_publishable_gUtHCxb0ICrRwqasoV766Q_C10nonpc';
+  let solectwo = '';
+  const priorytety = [];
+  let zebranie = '';
+
+  const btnSolectwo = document.querySelectorAll('[data-ank-solectwo]');
+  const btnPri = document.querySelectorAll('[data-ank-priorytet]');
+  const btnZeb = document.querySelectorAll('[data-ank-zebranie]');
+  const counter = document.getElementById('ankPriorytetCount');
+
+  function markBtn(btn, active){
+    if(active){ btn.classList.add('bg-amber-500','text-white','border-amber-500'); }
+    else { btn.classList.remove('bg-amber-500','text-white','border-amber-500'); }
+  }
+
+  btnSolectwo.forEach(b => b.addEventListener('click', () => {
+    solectwo = b.getAttribute('data-ank-solectwo');
+    btnSolectwo.forEach(x => markBtn(x, x === b));
+  }));
+
+  btnPri.forEach(b => b.addEventListener('click', () => {
+    const val = b.getAttribute('data-ank-priorytet');
+    const idx = priorytety.indexOf(val);
+    if(idx >= 0){ priorytety.splice(idx, 1); markBtn(b, false); }
+    else if(priorytety.length < 3){ priorytety.push(val); markBtn(b, true); }
+    if(counter) counter.textContent = '(' + priorytety.length + '/3)';
+  }));
+
+  btnZeb.forEach(b => b.addEventListener('click', () => {
+    zebranie = b.getAttribute('data-ank-zebranie');
+    btnZeb.forEach(x => markBtn(x, x === b));
+  }));
+
+  const pomysl = document.getElementById('ankPomysl');
+  const pc = document.getElementById('ankPomyslCount');
+  if(pomysl && pc) pomysl.addEventListener('input', () => { pc.textContent = pomysl.value.length + '/500'; });
+
+  const form = document.getElementById('ankietaForm');
+  if(form) form.addEventListener('submit', async function(ev){
+    ev.preventDefault();
+    const err = document.getElementById('ankErr');
+    if(!solectwo || priorytety.length === 0){
+      if(err) err.classList.remove('hidden');
+      return;
+    }
+    if(err) err.classList.add('hidden');
+    const btn = document.getElementById('ankSubmit');
+    if(btn){ btn.disabled = true; btn.textContent = '⏳ Wysyłanie...'; }
+    try{
+      const payload = {
+        solectwo: solectwo,
+        priorytety: priorytety,
+        pomysl: pomysl ? pomysl.value.trim() : '',
+        zebranie: zebranie,
+        ts: Date.now()
+      };
+      try{
+        await fetch(SUPA_URL + '/rest/v1/ankieta_fundusz', {
+          method: 'POST',
+          headers: { 'apikey': SUPA_KEY, 'Authorization': 'Bearer ' + SUPA_KEY, 'Content-Type': 'application/json', 'Prefer': 'return=minimal' },
+          body: JSON.stringify(payload)
+        });
+      }catch(e2){ console.warn('Ankieta: zapis w chmurze nieudany', e2); }
+      document.getElementById('ankietaFormWrap').classList.add('hidden');
+      document.getElementById('ankOk').classList.remove('hidden');
+    }finally{
+      if(btn){ btn.disabled = false; btn.textContent = '📨 Wyślij ankietę'; }
+    }
+  });
+})();
+
+// ===== LICZNIK WYŚWIETLEŃ (Supabase — wersja działająca) =====
+const VIEW_URL = 'https://batkjqjtwfduyonvjtym.supabase.co';
+const VIEW_KEY = 'sb_publishable_gUtHCxb0ICrRwqasoV766Q_C10nonpc';
+async function loadViewCounter(){
+  const el = document.getElementById('viewCounter');
+  if(!el) return;
+  try{
+    if(!window.supabase){
+      await new Promise((res, rej) => {
+        const sc = document.createElement('script');
+        sc.src = 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2';
+        sc.onload = res; sc.onerror = rej;
+        document.head.appendChild(sc);
+      });
+    }
+    const sb = window.supabase.createClient(VIEW_URL, VIEW_KEY);
+    const { data, error } = await sb.rpc('increment_view');
+    if(error) throw error;
+    const show = (n) => { el.textContent = '👁️ ' + Number(n).toLocaleString('pl-PL') + ' wyświetleń'; el.classList.remove('hidden'); };
+    show(data);
+    setInterval(async () => {
+      try{
+        const { data: d2, error: e2 } = await sb.from('page_views').select('count').eq('id', 1).single();
+        if(!e2 && d2) show(d2.count);
+      }catch(err){}
+    }, 30000);
+  }catch(err){
+    console.warn('Licznik wyświetleń niedostępny:', err);
+    el.classList.add('hidden');
+  }
+}
+loadViewCounter();
+
+</script>
+</body>
+</html>

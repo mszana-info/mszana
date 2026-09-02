@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sołectwo Gogołowa — Mszana.info — Mszana.info</title>
+    <meta name="description" content="Najnowsze informacje z XXVII Sesji Rady Gminy Mszana (27 lipca 2026): remont ul. 1 Maja, przepust do 1 września, utrudnienia na odcinku Dino - Piekarnia Kozielski, płyty ażurowe na skarpach.">
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Fraunces:opsz,wght@9..144,600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        readable: ['Atkinson Hyperlegible', 'system-ui', 'sans-serif'],
+                        display: ['Fraunces', 'serif'],
+                    },
+                    colors: {
+                        warm: { 50:'#fdfaf3', 100:'#f9f0e0', 200:'#f3e8d0', 300:'#e8e0d0', 800:'#4a453e', 900:'#2d2a26' },
+                        sage: { 50:'#f4f7f4', 100:'#e3ebe3', 200:'#c8d9ca', 500:'#6b8f71', 600:'#4a7c59', 700:'#3d6549' }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html { scroll-behavior: smooth; }
+        body { background-color: #fdfaf3; color: #2d2a26; line-height: 1.8; font-size: 17px; }
+        .soft-card { background: #ffffff; border: 1px solid #f0e9db; box-shadow: 0 4px 24px -8px rgba(45,42,38,0.08), 0 1px 4px rgba(45,42,38,0.04); border-radius: 20px; transition: all 0.25s ease; }
+        .soft-card:hover { box-shadow: 0 12px 32px -10px rgba(45,42,38,0.12), 0 4px 12px rgba(0,0,0,0.04); }
+        .info-box { background:#fff8e6; border-left:4px solid #f59e0b; border-radius:12px; padding:14px 18px; }
+        .info-box.red { background:#fdeeee; border-left-color:#e12b26; }
+        .info-box .tag { font-weight:700; display:block; }
+        .art-img { border-radius:16px; border:1px solid #f0e9db; box-shadow: 0 8px 28px -12px rgba(45,42,38,0.18); }
+        .chip { background:#eef2ff; color:#3730a3; border-radius:20px; padding:8px 14px; font-size:14px; font-weight:700; }
+        .chip small { display:block; font-weight:500; color:#4f46a5; }
+    </style>
+</head>
+<body class="font-readable antialiased" id="bodyRoot">
+
+        <!-- ACCESSIBILITY BAR -->
+    <div class="sticky top-0 z-50 bg-warm-50/90 backdrop-blur-md border-b border-warm-200 shadow-sm">
+        <div class="max-w-[1280px] mx-auto px-5 h-[52px] flex items-center justify-between gap-3">
+            <div class="flex items-center gap-2 min-w-0 shrink-0">
+                <a href="mailto:kontakt@mszana.info" onclick="openChat(event)" class="px-3 sm:px-4 h-8 rounded-full bg-teal-600 text-white text-[13px] font-bold inline-flex items-center gap-1.5 whitespace-nowrap" title="Kontakt do redakcji — kliknij, aby napisać">📧 kontakt@mszana.info</a>
+            </div>
+            <div class="flex items-center gap-1.5 sm:gap-2 overflow-x-auto no-scrollbar">
+                <a href="https://www.facebook.com/groups/1245680220713294?locale=pl_PL" target="_blank" rel="noopener" class="px-3 sm:px-4 h-8 rounded-full bg-white border border-warm-200 text-[13px] font-bold inline-flex items-center gap-1.5 whitespace-nowrap" title="Mszana – Przejrzysta Gmina &amp; Sprawy Mieszkańców">f Grupa</a>
+                <a href="https://www.facebook.com/mszana.gmina?locale=pl_PL" target="_blank" rel="noopener" class="px-3 sm:px-4 h-8 rounded-full bg-[#0866FF] text-white text-[13px] font-bold inline-flex items-center gap-1.5 whitespace-nowrap">f Gmina</a>
+                <a href="https://mszana.ug.gov.pl" target="_blank" rel="noopener" class="hidden sm:inline-flex px-3 sm:px-4 h-8 rounded-full bg-sage-600 text-white text-[13px] font-bold items-center gap-1.5 whitespace-nowrap" title="Oficjalna strona Gminy Mszana">
+                    <img src="../assets/herb-mszana.png" alt="Herb Gminy Mszana" class="h-5 w-auto rounded-full border border-white/40">
+                    Gmina Mszana
+                </a>
+                <a href="../#forum" class="px-4 h-8 rounded-full bg-warm-900 text-warm-50 text-[13px] font-bold inline-flex items-center whitespace-nowrap">💬 Forum</a>
+                <span id="viewCounter" title="Liczba wyświetleń strony" class="hidden shrink-0 px-3 h-8 rounded-full bg-white border border-warm-200 text-[12.5px] font-bold inline-flex items-center gap-1.5 whitespace-nowrap">👁️ …</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <header class="max-w-[1280px] mx-auto px-5 pt-7 pb-4">
+        <div class="flex items-center justify-between">
+            <a class='flex items-center gap-3' href='../'>
+                <img src="../assets/logo-mszana-info.png" class="w-11 h-11 rounded-2xl bg-white p-1 shadow-sm border border-warm-200" alt="">
+                <div>
+                    <div class="font-display text-[23px] leading-none tracking-tight text-warm-900 font-bold">Mszana INFO</div>
+                    <div class="text-[11.5px] tracking-[0.12em] uppercase font-bold text-sage-600 mt-0.5">Portal Mieszkańców • Forum • Twój Głos</div>
+                </div>
+            </a>
+            <nav class="hidden lg:flex items-center gap-5 text-[14.5px] font-bold text-warm-900/75">
+                <a class='text-sage-700 bg-sage-50 px-3 py-1 rounded-full border border-sage-200' href='../#aktualnosci'>📰 Aktualności</a>
+                <a class='hover:text-sage-700' href='../#ogloszenia'>Ogłoszenia</a>
+                <a class='hover:text-sage-700' href='../#forum'>Forum</a>
+                <a class='hover:text-sage-700' href='../#mapa'>Mapa</a>
+                <a class='hover:text-sage-700' href='../#kontakt'>Sołtysi</a>
+                <a href="https://mszana.ug.gov.pl" target="_blank" rel="noopener" class="hover:text-sage-700">🏛️ UG Mszana</a>
+                <a href="https://www.facebook.com/mszana.gmina?locale=pl_PL" target="_blank" rel="noopener" class="hover:text-sage-700">f Gmina</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ARTYKUŁ -->
+    <main class="max-w-[880px] mx-auto px-5 pt-4 pb-12">
+        <a class='text-[13.5px] font-bold text-sage-700 hover:text-sage-600' href='../#aktualnosci'>← Wróć na stronę główną</a>
+
+        <div class="flex flex-wrap items-center gap-2 mt-4">
+            <span class="text-[11px] font-bold uppercase tracking-widest px-2.5 py-1 rounded-full bg-sage-100 text-sage-700">🏡 Sołectwo</span>
+            <span class="text-[13px] text-warm-800/60">Gmina Mszana • powiat wodzisławski</span>
+        </div>
+
+        <div class="flex items-center gap-4 mt-4">
+            <img src="../assets/gogolowa.jpg" alt="Gogołowa — zdjęcie sołectwa" class="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl object-cover border border-warm-200 shadow-sm" loading="lazy">
+            <h1 class="font-display text-[34px] sm:text-[42px] leading-[1.1] tracking-tight">
+                Sołectwo Gogołowa
+            </h1>
+        </div>
+
+        <p class="text-[18px] text-warm-800/75 mt-4">Gogołowa to najmniejsze sołectwo Gminy Mszana, położone w jej zachodniej części. Mieszkańcy aktywnie korzystają z funduszu sołeckiego — w ostatnich latach finansowano m.in. wydarzenia integracyjne i drobne inwestycje na terenie sołectwa.</p>
+
+        <div class="mt-6 grid sm:grid-cols-2 gap-4">
+            <div class="soft-card p-5 bg-sage-50/70 border-sage-200">
+                <div class="font-bold text-[15px]">👥 Sołtys</div>
+                <div class="mt-2 text-[14.5px] font-bold text-warm-900">Anna Orszulik-Oślizlok</div>
+                <div class="text-[12.5px] uppercase font-bold text-warm-800/60 mt-0.5">Sołtys Gogołowej</div>
+                <a href="tel:695210755" class="mt-3 inline-flex h-10 px-5 rounded-full bg-sage-600 text-white text-[13.5px] font-bold items-center gap-2 hover:bg-sage-700">📞 695 210 755</a>
+            </div>
+            <div class="soft-card p-5 bg-sky-50/70 border-sky-200">
+                <div class="font-bold text-[15px]">📊 Dane sołectwa</div>
+                <div class="mt-2 text-[13.5px] leading-[1.7] text-warm-800/85">Powierzchnia: ok. 495 ha • ok. 1100 mieszkańców. Najmniejsze sołectwo Gminy Mszana.</div>
+            </div>
+        </div>
+
+        <h2 class="font-display text-[26px] font-bold mt-9 mb-3">📍 Ważne informacje</h2>
+        <ul class="list-disc pl-6 mt-2 space-y-2 text-[15px] leading-[1.65] text-warm-800/90">
+            <li><b>Fundusz sołecki</b> — 66 401,80 zł na 2026 r.; zebranie wiejskie we wrześniu, gdzie mieszkańcy decydują o wydatkach na 2027 r.</li>
+            <li><b>Wnioski do budżetu 2027</b> — do końca września radni składają wnioski; warto zgłaszać potrzeby (drogi, chodniki, oświetlenie).</li>
+            <li><b>Kontakt</b> — sołtys oraz Rada Sołecka przyjmują propozycje mieszkańców.</li>
+        </ul>
+
+                <h2 class="font-display text-[26px] font-bold mt-9 mb-3">🏗️ Inwestycje / Remonty</h2>
+        <div class="space-y-3 mt-2">
+            <a class="soft-card p-4 flex items-center gap-3 hover:border-sage-300 transition block" href="sesja-nadzwyczajna-19-sierpnia-2026.html">
+                <span class="w-11 h-11 rounded-2xl bg-sage-600 text-white flex items-center justify-center text-[20px] shrink-0">🏫</span>
+                <span class="flex-1 min-w-0">
+                    <span class="block text-[11px] font-bold uppercase tracking-widest text-warm-800/55">Remonty</span>
+                    <span class="block font-bold text-[15px] leading-snug mt-0.5">Szkoła w Gogołowej — malowanie dachu i ścian</span>
+                    <span class="block text-[12.5px] text-warm-800/65 mt-0.5">150 000 zł z budżetu (sesja nadzwyczajna 19.08.2026); prace zależne od termomodernizacji — koszty kwalifikowalne.</span>
+                </span>
+                <span class="text-[13px] font-bold text-sage-700 shrink-0">→</span>
+            </a>
+        </div>
+
+        <div class="flex flex-wrap gap-3 mt-8">
+            <a class='h-11 px-6 rounded-full bg-warm-900 text-white font-bold inline-flex items-center gap-2' href='../#forum'>💬 Dyskutuj na Forum</a>
+            <a href="mailto:kontakt@mszana.info" onclick="openChat(event)" class="h-11 px-6 rounded-full bg-teal-600 text-white font-bold inline-flex items-center gap-2">📧 Napisz do redakcji</a>
+            <a href="../#mapa" class="h-11 px-6 rounded-full bg-white border border-warm-200 font-bold inline-flex items-center gap-2">🗺️ Mapa</a>
+        </div>
+
+        <div class="mt-8 pt-4 border-t border-warm-200 text-[13px] text-warm-800/60">#Gogołowa #GminaMszana #Sołectwo #Mieszkańcy</div>
+    </main>
+    
+
+    <footer class="max-w-[1280px] mx-auto px-5 pb-10">
+        <div class="border-t border-warm-200 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-[13.5px] text-warm-800/60">
+            <div>Mszana INFO — Portal + Forum Mieszkańców Mszany, Połomi i Gogołowej.<br><span class="text-[12.5px]">Oficjalne kanały gminy: <a href="https://mszana.ug.gov.pl" target="_blank" rel="noopener" class="font-bold text-sage-700 hover:text-sage-600">mszana.ug.gov.pl</a> • <a href="https://www.facebook.com/mszana.gmina?locale=pl_PL" target="_blank" rel="noopener" class="font-bold text-sage-700 hover:text-sage-600">f Gmina (FB)</a></span><br><span class="text-[12.5px]">📧 Kontakt redakcji: <a href="mailto:kontakt@mszana.info" class="font-bold text-sage-700 hover:text-sage-600">kontakt@mszana.info</a></span></div>
+            <span class='flex flex-wrap items-center justify-center gap-3'>
+            <a class='font-bold text-sage-700 hover:text-sage-600' href='rodo.html'>🔒 Polityka prywatności (RODO)</a>
+            <a class='font-bold text-sage-700 hover:text-sage-600' href='../'>← Strona główna</a>
+            </span>
+        </div>
+    </footer>
+
+    <script>
+    </script>
+<!-- CZAT: ASYSTENT MIESZKAŃCA -->
+<button id="chatBubble" onclick="toggleChat()" aria-label="Otwórz czat Asystenta" class="fixed bottom-5 right-5 z-[96] w-14 h-14 rounded-full bg-sage-600 text-white flex items-center justify-center text-[26px] shadow-2xl hover:bg-sage-700 transition transform hover:scale-105" title="Asystent mieszkańca">
+  💬
+</button>
+
+<div id="chatPanel" class="hidden fixed bottom-24 right-5 z-[96] w-[92%] max-w-[380px] bg-white rounded-3xl shadow-2xl border border-warm-200 overflow-hidden">
+  <div class="bg-sage-600 text-white px-5 py-4 flex items-center justify-between">
+    <div class="flex items-center gap-2.5">
+      <span class="w-9 h-9 rounded-full bg-white/20 flex items-center justify-center text-[18px]">🧭</span>
+      <div>
+        <div class="font-bold text-[15px] leading-tight">Asystent mieszkańca</div>
+        <div class="text-[11.5px] text-white/80">napisz do redakcji Mszana INFO</div>
+      </div>
+    </div>
+    <button onclick="toggleChat()" aria-label="Zamknij czat" class="w-8 h-8 rounded-full bg-white/20 hover:bg-white/30 flex items-center justify-center text-[14px]">✕</button>
+  </div>
+
+  <div id="chatFormWrap" class="p-5">
+    <form id="chatForm" class="space-y-3">
+      <div class="grid grid-cols-2 gap-2.5">
+        <div>
+          <label class="text-[11px] font-bold uppercase tracking-widest text-warm-800/60">Imię *</label>
+          <input id="chatImie" required maxlength="60" placeholder="Jan" class="mt-1 w-full h-10 rounded-xl border border-warm-200 px-3 text-[14px]">
+        </div>
+        <div>
+          <label class="text-[11px] font-bold uppercase tracking-widest text-warm-800/60">Nazwisko *</label>
+          <input id="chatNazwisko" required maxlength="80" placeholder="Kowalski" class="mt-1 w-full h-10 rounded-xl border border-warm-200 px-3 text-[14px]">
+        </div>
+      </div>
+      <div>
+        <label class="text-[11px] font-bold uppercase tracking-widest text-warm-800/60">Twój e-mail *</label>
+        <input id="chatEmail" type="email" required maxlength="120" placeholder="jan.kowalski@example.com" class="mt-1 w-full h-10 rounded-xl border border-warm-200 px-3 text-[14px]">
+      </div>
+      <div>
+        <label class="text-[11px] font-bold uppercase tracking-widest text-warm-800/60">Wiadomość *</label>
+        <textarea id="chatWiadomosc" required rows="4" placeholder="Opisz swoją sprawę, pytanie lub pomysł..." class="mt-1 w-full rounded-xl border border-warm-200 p-3 text-[14px]"></textarea>
+      </div>
+      <button type="submit" id="chatSubmit" class="w-full h-11 rounded-full bg-sage-600 text-white font-bold hover:bg-sage-700 transition">📨 Wyślij wiadomość</button>
+      <p class="text-[11.5px] text-warm-800/55 text-center leading-snug">Odpowiemy na podany adres e-mail zwykle w ciągu 48 h.</p>
+    </form>
+    <div id="chatMsg" class="hidden p-4 rounded-2xl bg-emerald-50 border border-emerald-200 text-[14px] text-emerald-900 leading-relaxed">✅ <b>Dziękujemy!</b> Twoja wiadomość została wysłana. Odpowiemy na Twój e-mail.</div>
+  </div>
+</div>
+<script>
+
+// ===== O NAS - rozwijanie =====
+function toggleOnas(){
+  const content = document.getElementById('onasContent');
+  const arrow = document.getElementById('onasArrow');
+  const btn = document.querySelector('#onas button');
+  if(!content) return;
+  const isHidden = content.classList.contains('hidden');
+  content.classList.toggle('hidden', !isHidden);
+  if(arrow) arrow.style.transform = isHidden ? 'rotate(180deg)' : 'rotate(0deg)';
+  if(btn) btn.setAttribute('aria-expanded', String(isHidden));
+  if(isHidden) content.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+
+// ===== CZAT: ASYSTENT MIESZKAŃCA =====
+function openChat(e){
+  if(e) e.preventDefault();
+  const p = document.getElementById('chatPanel');
+  if(p) p.classList.remove('hidden');
+  if(p) p.scrollIntoView({behavior:'smooth', block:'center'});
+}
+function toggleChat(){
+  const p = document.getElementById('chatPanel');
+  if(!p) return;
+  const hidden = p.classList.contains('hidden');
+  p.classList.toggle('hidden', !hidden);
+}
+const chatFormEl = document.getElementById('chatForm');
+if(chatFormEl) chatFormEl.addEventListener('submit', async function(ev){
+  ev.preventDefault();
+  const imie = document.getElementById('chatImie').value.trim();
+  const nazwisko = document.getElementById('chatNazwisko').value.trim();
+  const email = document.getElementById('chatEmail').value.trim();
+  const wiadomosc = document.getElementById('chatWiadomosc').value.trim();
+  const btn = document.getElementById('chatSubmit');
+  const msg = document.getElementById('chatMsg');
+  if(!imie || !nazwisko || !email || !wiadomosc) return;
+  btn.disabled = true; btn.textContent = '⏳ Wysyłanie...';
+  try{
+    // 1) zapis w chmurze (Supabase) — kopia wiadomości
+    try{
+      await fetch('https://batkjqjtwfduyonvjtym.supabase.co/rest/v1/kontakt_widget', {
+        method: 'POST',
+        headers: {
+          'apikey': 'sb_publishable_gUtHCxb0ICrRwqasoV766Q_C10nonpc',
+          'Authorization': 'Bearer sb_publishable_gUtHCxb0ICrRwqasoV766Q_C10nonpc',
+          'Content-Type': 'application/json',
+          'Prefer': 'return=minimal'
+        },
+        body: JSON.stringify({ imie: imie, nazwisko: nazwisko, email: email, wiadomosc: wiadomosc, ts: Date.now() })
+      });
+    }catch(err){ console.warn('Zapis w chmurze nieudany:', err); }
+
+    // 2) wysyłka e-mail na kontakt@mszana.info (FormSubmit AJAX)
+    try{
+      const r = await fetch('https://formsubmit.co/ajax/kontakt@mszana.info', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify({
+          _subject: '🧭 Asystent mieszkańca — wiadomość od ' + imie + ' ' + nazwisko,
+          _template: 'table',
+          imie: imie,
+          nazwisko: nazwisko,
+          email: email,
+          wiadomosc: wiadomosc,
+          _replyto: email
+        })
+      });
+      if(!r.ok) throw new Error('HTTP ' + r.status);
+    }catch(err){
+      console.warn('E-mail nie wysłany przez FormSubmit:', err);
+    }
+  }finally{
+    btn.disabled = false; btn.textContent = '📨 Wyślij wiadomość';
+  }
+  // pokaż potwierdzenie
+  document.getElementById('chatForm').classList.add('hidden');
+  if(msg) msg.classList.remove('hidden');
+});
+
+
+// ===== ANKIETA: FUNDUSZ SOŁECKI =====
+(function(){
+  const SUPA_URL = 'https://batkjqjtwfduyonvjtym.supabase.co';
+  const SUPA_KEY = 'sb_publishable_gUtHCxb0ICrRwqasoV766Q_C10nonpc';
+  let solectwo = '';
+  const priorytety = [];
+  let zebranie = '';
+
+  const btnSolectwo = document.querySelectorAll('[data-ank-solectwo]');
+  const btnPri = document.querySelectorAll('[data-ank-priorytet]');
+  const btnZeb = document.querySelectorAll('[data-ank-zebranie]');
+  const counter = document.getElementById('ankPriorytetCount');
+
+  function markBtn(btn, active){
+    if(active){ btn.classList.add('bg-amber-500','text-white','border-amber-500'); }
+    else { btn.classList.remove('bg-amber-500','text-white','border-amber-500'); }
+  }
+
+  btnSolectwo.forEach(b => b.addEventListener('click', () => {
+    solectwo = b.getAttribute('data-ank-solectwo');
+    btnSolectwo.forEach(x => markBtn(x, x === b));
+  }));
+
+  btnPri.forEach(b => b.addEventListener('click', () => {
+    const val = b.getAttribute('data-ank-priorytet');
+    const idx = priorytety.indexOf(val);
+    if(idx >= 0){ priorytety.splice(idx, 1); markBtn(b, false); }
+    else if(priorytety.length < 3){ priorytety.push(val); markBtn(b, true); }
+    if(counter) counter.textContent = '(' + priorytety.length + '/3)';
+  }));
+
+  btnZeb.forEach(b => b.addEventListener('click', () => {
+    zebranie = b.getAttribute('data-ank-zebranie');
+    btnZeb.forEach(x => markBtn(x, x === b));
+  }));
+
+  const pomysl = document.getElementById('ankPomysl');
+  const pc = document.getElementById('ankPomyslCount');
+  if(pomysl && pc) pomysl.addEventListener('input', () => { pc.textContent = pomysl.value.length + '/500'; });
+
+  const form = document.getElementById('ankietaForm');
+  if(form) form.addEventListener('submit', async function(ev){
+    ev.preventDefault();
+    const err = document.getElementById('ankErr');
+    if(!solectwo || priorytety.length === 0){
+      if(err) err.classList.remove('hidden');
+      return;
+    }
+    if(err) err.classList.add('hidden');
+    const btn = document.getElementById('ankSubmit');
+    if(btn){ btn.disabled = true; btn.textContent = '⏳ Wysyłanie...'; }
+    try{
+      const payload = {
+        solectwo: solectwo,
+        priorytety: priorytety,
+        pomysl: pomysl ? pomysl.value.trim() : '',
+        zebranie: zebranie,
+        ts: Date.now()
+      };
+      try{
+        await fetch(SUPA_URL + '/rest/v1/ankieta_fundusz', {
+          method: 'POST',
+          headers: { 'apikey': SUPA_KEY, 'Authorization': 'Bearer ' + SUPA_KEY, 'Content-Type': 'application/json', 'Prefer': 'return=minimal' },
+          body: JSON.stringify(payload)
+        });
+      }catch(e2){ console.warn('Ankieta: zapis w chmurze nieudany', e2); }
+      document.getElementById('ankietaFormWrap').classList.add('hidden');
+      document.getElementById('ankOk').classList.remove('hidden');
+    }finally{
+      if(btn){ btn.disabled = false; btn.textContent = '📨 Wyślij ankietę'; }
+    }
+  });
+})();
+
+// ===== LICZNIK WYŚWIETLEŃ (Supabase — wersja działająca) =====
+const VIEW_URL = 'https://batkjqjtwfduyonvjtym.supabase.co';
+const VIEW_KEY = 'sb_publishable_gUtHCxb0ICrRwqasoV766Q_C10nonpc';
+async function loadViewCounter(){
+  const el = document.getElementById('viewCounter');
+  if(!el) return;
+  try{
+    if(!window.supabase){
+      await new Promise((res, rej) => {
+        const sc = document.createElement('script');
+        sc.src = 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2';
+        sc.onload = res; sc.onerror = rej;
+        document.head.appendChild(sc);
+      });
+    }
+    const sb = window.supabase.createClient(VIEW_URL, VIEW_KEY);
+    const { data, error } = await sb.rpc('increment_view');
+    if(error) throw error;
+    const show = (n) => { el.textContent = '👁️ ' + Number(n).toLocaleString('pl-PL') + ' wyświetleń'; el.classList.remove('hidden'); };
+    show(data);
+    setInterval(async () => {
+      try{
+        const { data: d2, error: e2 } = await sb.from('page_views').select('count').eq('id', 1).single();
+        if(!e2 && d2) show(d2.count);
+      }catch(err){}
+    }, 30000);
+  }catch(err){
+    console.warn('Licznik wyświetleń niedostępny:', err);
+    el.classList.add('hidden');
+  }
+}
+loadViewCounter();
+
+</script>
+</body>
+</html>

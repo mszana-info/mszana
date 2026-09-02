@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sesja nadzwyczajna Rady Gminy Mszana – 19.08.2026 – relacja — Mszana INFO</title>
+    <meta name="description" content="Relacja z nadzwyczajnej sesji Rady Gminy Mszana (19 sierpnia 2026): 200 000 zł dla szkoły w Gogołowej i OSP Mszana, problemy z rejestracją głosów w systemie eSesja oraz postępowanie nadzorcze RIO. Źródła i rozbieżności.">
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Fraunces:opsz,wght@9..144,600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        readable: ['Atkinson Hyperlegible', 'system-ui', 'sans-serif'],
+                        display: ['Fraunces', 'serif'],
+                    },
+                    colors: {
+                        warm: { 50:'#fdfaf3', 100:'#f9f0e0', 200:'#f3e8d0', 300:'#e8e0d0', 800:'#4a453e', 900:'#2d2a26' },
+                        sage: { 50:'#f4f7f4', 100:'#e3ebe3', 200:'#c8d9ca', 500:'#6b8f71', 600:'#4a7c59', 700:'#3d6549' }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html { scroll-behavior: smooth; }
+        body { background-color: #fdfaf3; color: #2d2a26; line-height: 1.8; font-size: 17px; }
+        .soft-card { background: #ffffff; border: 1px solid #f0e9db; box-shadow: 0 4px 24px -8px rgba(45,42,38,0.08), 0 1px 4px rgba(45,42,38,0.04); border-radius: 20px; transition: all 0.25s ease; }
+        .soft-card:hover { box-shadow: 0 12px 32px -10px rgba(45,42,38,0.12), 0 4px 12px rgba(0,0,0,0.04); }
+        .info-box { background:#fff8e6; border-left:4px solid #f59e0b; border-radius:12px; padding:14px 18px; }
+        .info-box.blue { background:#eef4fb; border-left-color:#2563eb; }
+        .info-box .tag { font-weight:700; display:block; }
+        .chip { background:#eef2ff; color:#3730a3; border-radius:20px; padding:6px 12px; font-size:13px; font-weight:700; }
+        .topic { scroll-margin-top: 90px; }
+    </style>
+</head>
+<body class="font-readable antialiased" id="bodyRoot">
+
+        <!-- ACCESSIBILITY BAR -->
+    <div class="sticky top-0 z-50 bg-warm-50/90 backdrop-blur-md border-b border-warm-200 shadow-sm">
+        <div class="max-w-[1280px] mx-auto px-5 h-[52px] flex items-center justify-between gap-3">
+            <div class="flex items-center gap-2 min-w-0 shrink-0">
+                <a href="mailto:kontakt@mszana.info" onclick="openChat(event)" class="px-3 sm:px-4 h-8 rounded-full bg-teal-600 text-white text-[13px] font-bold inline-flex items-center gap-1.5 whitespace-nowrap" title="Kontakt do redakcji — kliknij, aby napisać">📧 kontakt@mszana.info</a>
+            </div>
+            <div class="flex items-center gap-1.5 sm:gap-2 overflow-x-auto no-scrollbar">
+                <a href="https://www.facebook.com/groups/1245680220713294?locale=pl_PL" target="_blank" rel="noopener" class="px-3 sm:px-4 h-8 rounded-full bg-white border border-warm-200 text-[13px] font-bold inline-flex items-center gap-1.5 whitespace-nowrap" title="Mszana – Przejrzysta Gmina &amp; Sprawy Mieszkańców">f Grupa</a>
+                <a href="https://www.facebook.com/mszana.gmina?locale=pl_PL" target="_blank" rel="noopener" class="px-3 sm:px-4 h-8 rounded-full bg-[#0866FF] text-white text-[13px] font-bold inline-flex items-center gap-1.5 whitespace-nowrap">f Gmina</a>
+                <a href="https://mszana.ug.gov.pl" target="_blank" rel="noopener" class="hidden sm:inline-flex px-3 sm:px-4 h-8 rounded-full bg-sage-600 text-white text-[13px] font-bold items-center gap-1.5 whitespace-nowrap" title="Oficjalna strona Gminy Mszana">
+                    <img src="../assets/herb-mszana.png" alt="Herb Gminy Mszana" class="h-5 w-auto rounded-full border border-white/40">
+                    Gmina Mszana
+                </a>
+                <a href="../#forum" class="px-4 h-8 rounded-full bg-warm-900 text-warm-50 text-[13px] font-bold inline-flex items-center whitespace-nowrap">💬 Forum</a>
+                <span id="viewCounter" title="Liczba wyświetleń strony" class="hidden shrink-0 px-3 h-8 rounded-full bg-white border border-warm-200 text-[12.5px] font-bold inline-flex items-center gap-1.5 whitespace-nowrap">👁️ …</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <header class="max-w-[1280px] mx-auto px-5 pt-7 pb-4">
+        <div class="flex items-center justify-between">
+            <a class='flex items-center gap-3' href='../'>
+                <img src="../assets/logo-mszana-info.png" class="w-11 h-11 rounded-2xl bg-white p-1 shadow-sm border border-warm-200" alt="">
+                <div>
+                    <div class="font-display text-[23px] leading-none tracking-tight text-warm-900 font-bold">Mszana INFO</div>
+                    <div class="text-[11.5px] tracking-[0.12em] uppercase font-bold text-sage-600 mt-0.5">Portal Mieszkańców • Forum • Twój Głos</div>
+                </div>
+            </a>
+            <nav class="hidden lg:flex items-center gap-5 text-[14.5px] font-bold text-warm-900/75">
+                <a class='text-sage-700 bg-sage-50 px-3 py-1 rounded-full border border-sage-200' href='../#aktualnosci'>📰 Aktualności</a>
+                <a class='hover:text-sage-700' href='../#ogloszenia'>Ogłoszenia</a>
+                <a class='hover:text-sage-700' href='../#forum'>Forum</a>
+                <a class='hover:text-sage-700' href='../#mapa'>Mapa</a>
+                <a class='hover:text-sage-700' href='../#kontakt'>Sołtysi</a>
+                <a href="https://mszana.ug.gov.pl" target="_blank" rel="noopener" class="hover:text-sage-700">🏛️ UG Mszana</a>
+                <a href="https://www.facebook.com/mszana.gmina?locale=pl_PL" target="_blank" rel="noopener" class="hover:text-sage-700">f Gmina</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ARTYKUŁ -->
+    <main class="max-w-[880px] mx-auto px-5 pt-4 pb-12">
+        <a class='text-[13.5px] font-bold text-sage-700 hover:text-sage-600' href='../#aktualnosci'>← Wróć na stronę główną</a>
+
+        <div class="flex flex-wrap items-center gap-2 mt-4">
+            <span class="text-[11px] font-bold uppercase tracking-widest px-2.5 py-1 rounded-full bg-[#e12b26]/10 text-[#e12b26]">📋 Relacja z sesji</span>
+            <span class="text-[11px] font-bold uppercase tracking-widest px-2.5 py-1 rounded-full bg-amber-100 text-amber-800">Ważne</span>
+            <span class="text-[13px] text-warm-800/60">Sesja nadzwyczajna Rady Gminy Mszana • 19 sierpnia 2026 r.</span>
+        </div>
+
+        <h1 class="font-display text-[34px] sm:text-[42px] leading-[1.1] tracking-tight mt-4">
+            💰 Sesja nadzwyczajna 19.08.2026 – 200 tys. zł dla Gogołowej i OSP. Krótko, ale z pytaniami
+        </h1>
+
+        <!-- linki źródłowe na górze — kafelki (pigułki) -->
+        <div class="mt-5 grid sm:grid-cols-2 gap-3">
+            <a href="https://mszana.esesja.pl/transmisja/87909/sesjaanadzwyczajnaaradyagminyamszanaawadniua%C5%9Brodaa19asierpniaa2026.htm" target="_blank" rel="noopener" class="soft-card p-4 bg-red-50/70 border-red-200 hover:border-red-400 transition flex items-center gap-3">
+                <span class="w-11 h-11 rounded-2xl bg-red-600 text-white flex items-center justify-center text-[20px] shrink-0">🎥</span>
+                <span>
+                    <span class="block text-[11px] font-bold uppercase tracking-widest text-warm-800/55">Pełne nagranie sesji</span>
+                    <span class="block font-bold text-[14px] leading-snug mt-0.5">mszana.esesja.pl • 33:25</span>
+                </span>
+            </a>
+            <a href="https://mszana.ug.gov.pl/aktualnosci/zawiadomienie-o-sesji-nadzwyczajnej-rady-gminy-mszana-odbedzie-sie-19-sierpnia-br.html" target="_blank" rel="noopener" class="soft-card p-4 bg-amber-50/70 border-amber-200 hover:border-amber-400 transition flex items-center gap-3">
+                <span class="w-11 h-11 rounded-2xl bg-amber-600 text-white flex items-center justify-center text-[20px] shrink-0">📢</span>
+                <span>
+                    <span class="block text-[11px] font-bold uppercase tracking-widest text-warm-800/55">Oficjalne zawiadomienie</span>
+                    <span class="block font-bold text-[14px] leading-snug mt-0.5">mszana.ug.gov.pl</span>
+                </span>
+            </a>
+            <a href="https://www.mszana.finn.pl/bipkod/005/003" target="_blank" rel="noopener" class="soft-card p-4 bg-sky-50/70 border-sky-200 hover:border-sky-400 transition flex items-center gap-3">
+                <span class="w-11 h-11 rounded-2xl bg-sky-600 text-white flex items-center justify-center text-[20px] shrink-0">📄</span>
+                <span>
+                    <span class="block text-[11px] font-bold uppercase tracking-widest text-warm-800/55">Projekty uchwał i BIP</span>
+                    <span class="block font-bold text-[14px] leading-snug mt-0.5">mszana.finn.pl/bipkod</span>
+                </span>
+            </a>
+            <a href="https://mszana.esesja.pl/transmisja/87909/sesjaanadzwyczajnaaradyagminyamszanaawadniua%C5%9Brodaa19asierpniaa2026.htm?hd=1" target="_blank" rel="noopener" class="soft-card p-4 bg-emerald-50/70 border-emerald-200 hover:border-emerald-400 transition flex items-center gap-3">
+                <span class="w-11 h-11 rounded-2xl bg-emerald-600 text-white flex items-center justify-center text-[20px] shrink-0">📺</span>
+                <span>
+                    <span class="block text-[11px] font-bold uppercase tracking-widest text-warm-800/55">Nagranie w HD</span>
+                    <span class="block font-bold text-[14px] leading-snug mt-0.5">esesja.pl • jakość HD</span>
+                </span>
+            </a>
+        </div>
+
+        <p class="mt-6 text-[16.5px] leading-[1.8]">
+            W środę <b>19 sierpnia 2026 r.</b> odbyła się nadzwyczajna sesja Rady Gminy Mszana. Krótko — bo trwała
+            tylko <b>ok. 33 minuty</b> — ale było o czym mówić. Oto co musisz wiedzieć:
+        </p>
+
+        <!-- 1. PIENIĄDZE -->
+        <div class="topic mt-10" id="pieniadze">
+            <h2 class="font-display text-[26px] font-bold">💰 200 000 zł na naszą okolicę</h2>
+            <div class="flex flex-wrap gap-2 mt-2">
+                <span class="chip">🕌 Szkoła Gogołowa — 150 000 zł</span>
+                <span class="chip">🚒 OSP Mszana — 50 000 zł</span>
+            </div>
+            <ul class="list-disc pl-6 mt-3 space-y-2 text-[15px] leading-[1.7] text-warm-800/90">
+                <li><b>150 tys. zł → Szkoła w Gogołowej</b> — malowanie dachu i ścian, instalacja pomiarowa.</li>
+                <li><b>50 tys. zł → OSP Mszana</b> — remont dachu i elewacji. Dach musi być szczelny, bo w budynku montowana jest <b>fotowoltaika</b>.</li>
+            </ul>
+        </div>
+
+        <!-- 2. GŁOSOWANIA -->
+        <div class="topic mt-10" id="glosowania">
+            <h2 class="font-display text-[26px] font-bold">🗳️ Uwaga na wyniki głosowań!</h2>
+            <div class="info-box blue mt-3">
+                <span class="tag">⚠️ Rozbieżność: system vs. sala</span>
+                System eSesja nie zarejestrował głosów <b>trzech radnych: Kotula, Kuczera, Wita</b> — głosowali ustnie.
+                Dlatego w systemie:
+            </div>
+            <ul class="list-disc pl-6 mt-3 space-y-2 text-[15px] leading-[1.7] text-warm-800/90">
+                <li><b>nie widać jedynego głosu „przeciw”</b> (radny Kuczera, w sprawie budżetu),</li>
+                <li>uchwała o trybie prac wygląda w systemie na <b>7 „za”</b>, a na sali ogłoszono <b>10 „za”</b>.</li>
+            </ul>
+            <p class="mt-3 text-[14.5px] text-warm-800/70 leading-[1.7]">👉 Jak głosował Twój radny? Sprawdź w systemie eSesja i podziel się w komentarzu. Co sądzicie o rozbieżnościach między systemem a tym, co ogłoszono na sali?</p>
+        </div>
+
+        <!-- 3. SKĄD 150 TYS. -->
+        <div class="topic mt-10" id="skad-150">
+            <h2 class="font-display text-[26px] font-bold">❓ 150 tysięcy — skąd ta kwota?</h2>
+            <p class="mt-3 text-[15px] leading-[1.8]">
+                Na sesji padło, że oferty na malowanie szkoły w Gogołowej opiewały na <b>97 tys. zł</b>,
+                <b>108 tys. zł</b> i <b>116 tys. zł</b>. Kosztorys remontu dachu OSP Mszana <b>dopiero powstaje</b>.
+            </p>
+            <div class="info-box mt-4">
+                <span class="tag">🔎 Warto pilnować</span>
+                Ponieważ do wskazanej kwoty 150 000 zł nie przedstawiono na sesji publicznego wyliczenia
+                (zwłaszcza przy ofertach niższych), warto pilnować rozliczenia inwestycji i pytać o szczegółowy
+                kosztorys na kolejnych posiedzeniach komisji.
+            </div>
+            <div class="soft-card p-5 bg-emerald-50/70 border-emerald-200 mt-4">
+                <span class="tag text-emerald-800">💬 Wyjaśnienie zastępcy wójta</span>
+                <p class="text-[15px] leading-[1.8] mt-1.5">
+                    W ramach wniosku o <b>termomodernizację szkoły w Gogołowej</b> gmina mogła uwzględnić zakres
+                    prac koniecznych, które są zależne od prac dofinansowanych. To <b>koszty kwalifikowalne</b> —
+                    w całości realizowane ze środków zewnętrznych w ramach dofinansowania. Pozostałe prace
+                    <b>niekwalifikowalne</b> nie zostały ujęte w kosztorysie całości prac, gdyż założono, że
+                    mogłoby to „napompować” koszty budżetu całej inwestycji — wyjaśnia zastępca wójta.
+                </p>
+            </div>
+        </div>
+
+        <!-- 4. FORMALNOŚĆ RIO -->
+        <div class="topic mt-10" id="rio">
+            <h2 class="font-display text-[26px] font-bold">🏛️ I formalność: dlaczego sesja w ogóle była?</h2>
+            <p class="mt-3 text-[15px] leading-[1.8]">
+                Sesję nadzwyczajną <b>wymusiło postępowanie nadzorcze Regionalnej Izby Obrachunkowej (RIO) w Katowicach</b> —
+                trzeba było poprawić lipcową uchwałę o trybie prac nad budżetem. Do tego w projekcie pojawiła się
+                <b>literówka w numeracji paragrafów</b>, którą wychwycono na sali.
+            </p>
+        </div>
+
+        <!-- PODSUMOWANIE -->
+        <div class="soft-card p-6 sm:p-8 bg-white mt-10 border-l-4 border-l-[#3d6549] shadow-sm">
+            <div class="flex items-center gap-2.5">
+                <span class="w-10 h-10 rounded-full bg-sage-600 text-white flex items-center justify-center text-[18px] shrink-0">📌</span>
+                <h3 class="font-display text-[21px] font-bold text-warm-900">Podsumowanie w 30 sekund</h3>
+            </div>
+            <ul class="list-disc pl-6 mt-3 space-y-2 text-[15px] leading-[1.7] text-warm-900">
+                <li>💰 <b>150 tys. zł</b> — szkoła w Gogołowej (malowanie dachu i ścian, instalacja pomiarowa).</li>
+                <li>🚒 <b>50 tys. zł</b> — OSP Mszana (remont dachu i elewacji, pod fotowoltaikę).</li>
+                <li>🗳️ System eSesja nie zarejestrował głosów 3 radnych (Kotula, Kuczera, Wita) — głosy ustne; w systemie brak głosu „przeciw” i różnica 7 vs 10 „za” w uchwale o trybie prac.</li>
+                <li>❓ Kwota 150 tys. — na sesji nie było publicznego wyliczenia, ale zastępca wójta wyjaśnił: to koszty kwalifikowalne (prace zależne od termomodernizacji, w całości ze środków zewnętrznych); prace niekwalifikowalne celowo pominięto, by nie „napompowywać” budżetu inwestycji.</li>
+                <li>🏛️ Sesję wymusiło postępowanie RIO w Katowicach (poprawka uchwały o trybie prac nad budżetem) + literówka w numeracji paragrafów.</li>
+            </ul>
+        </div>
+
+        <div class="mt-8 pt-4 border-t border-warm-200 text-[13px] text-warm-800/60">#Mszana #SesjaRady #RadaGminyMszana #Budżet2026 #Gogołowa #OSP #Samorząd #MszanaInfo</div>
+    </main>
+
+    <footer class="max-w-[1280px] mx-auto px-5 pb-10">
+        <div class="border-t border-warm-200 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-[13.5px] text-warm-800/60">
+            <div>Mszana INFO — Portal + Forum Mieszkańców Mszany, Połomi i Gogołowej.<br><span class="text-[12.5px]">Oficjalne kanały gminy: <a href="https://mszana.ug.gov.pl" target="_blank" rel="noopener" class="font-bold text-sage-700 hover:text-sage-600">mszana.ug.gov.pl</a> • <a href="https://www.facebook.com/mszana.gmina?locale=pl_PL" target="_blank" rel="noopener" class="font-bold text-sage-700 hover:text-sage-600">f Gmina (FB)</a></span><br><span class="text-[12.5px]">📧 Kontakt redakcji: <a href="mailto:kontakt@mszana.info" class="font-bold text-sage-700 hover:text-sage-600">kontakt@mszana.info</a></span></div>
+            <span class='flex flex-wrap items-center justify-center gap-3'>
+            <a class='font-bold text-sage-700 hover:text-sage-600' href='rodo.html'>🔒 Polityka prywatności (RODO)</a>
+            <a class='font-bold text-sage-700 hover:text-sage-600' href='../'>← Strona główna</a>
+            </span>
+        </div>
+    </footer>
+
+    <script>
+    </script>
+<!-- CZAT: ASYSTENT MIESZKAŃCA -->
+<button id="chatBubble" onclick="toggleChat()" aria-label="Otwórz czat Asystenta" class="fixed bottom-5 right-5 z-[96] w-14 h-14 rounded-full bg-sage-600 text-white flex items-center justify-center text-[26px] shadow-2xl hover:bg-sage-700 transition transform hover:scale-105" title="Asystent mieszkańca">
+  💬
+</button>
+
+<div id="chatPanel" class="hidden fixed bottom-24 right-5 z-[96] w-[92%] max-w-[380px] bg-white rounded-3xl shadow-2xl border border-warm-200 overflow-hidden">
+  <div class="bg-sage-600 text-white px-5 py-4 flex items-center justify-between">
+    <div class="flex items-center gap-2.5">
+      <span class="w-9 h-9 rounded-full bg-white/20 flex items-center justify-center text-[18px]">🧭</span>
+      <div>
+        <div class="font-bold text-[15px] leading-tight">Asystent mieszkańca</div>
+        <div class="text-[11.5px] text-white/80">napisz do redakcji Mszana INFO</div>
+      </div>
+    </div>
+    <button onclick="toggleChat()" aria-label="Zamknij czat" class="w-8 h-8 rounded-full bg-white/20 hover:bg-white/30 flex items-center justify-center text-[14px]">✕</button>
+  </div>
+
+  <div id="chatFormWrap" class="p-5">
+    <form id="chatForm" class="space-y-3">
+      <div class="grid grid-cols-2 gap-2.5">
+        <div>
+          <label class="text-[11px] font-bold uppercase tracking-widest text-warm-800/60">Imię *</label>
+          <input id="chatImie" required maxlength="60" placeholder="Jan" class="mt-1 w-full h-10 rounded-xl border border-warm-200 px-3 text-[14px]">
+        </div>
+        <div>
+          <label class="text-[11px] font-bold uppercase tracking-widest text-warm-800/60">Nazwisko *</label>
+          <input id="chatNazwisko" required maxlength="80" placeholder="Kowalski" class="mt-1 w-full h-10 rounded-xl border border-warm-200 px-3 text-[14px]">
+        </div>
+      </div>
+      <div>
+        <label class="text-[11px] font-bold uppercase tracking-widest text-warm-800/60">Twój e-mail *</label>
+        <input id="chatEmail" type="email" required maxlength="120" placeholder="jan.kowalski@example.com" class="mt-1 w-full h-10 rounded-xl border border-warm-200 px-3 text-[14px]">
+      </div>
+      <div>
+        <label class="text-[11px] font-bold uppercase tracking-widest text-warm-800/60">Wiadomość *</label>
+        <textarea id="chatWiadomosc" required rows="4" placeholder="Opisz swoją sprawę, pytanie lub pomysł..." class="mt-1 w-full rounded-xl border border-warm-200 p-3 text-[14px]"></textarea>
+      </div>
+      <button type="submit" id="chatSubmit" class="w-full h-11 rounded-full bg-sage-600 text-white font-bold hover:bg-sage-700 transition">📨 Wyślij wiadomość</button>
+      <p class="text-[11.5px] text-warm-800/55 text-center leading-snug">Odpowiemy na podany adres e-mail zwykle w ciągu 48 h.</p>
+    </form>
+    <div id="chatMsg" class="hidden p-4 rounded-2xl bg-emerald-50 border border-emerald-200 text-[14px] text-emerald-900 leading-relaxed">✅ <b>Dziękujemy!</b> Twoja wiadomość została wysłana. Odpowiemy na Twój e-mail.</div>
+  </div>
+</div>
+<script>
+function toggleChat(){
+  const p = document.getElementById('chatPanel');
+  if(!p) return;
+  const hidden = p.classList.contains('hidden');
+  p.classList.toggle('hidden', !hidden);
+}
+function openChat(e){
+  if(e) e.preventDefault();
+  const p = document.getElementById('chatPanel');
+  if(p) p.classList.remove('hidden');
+  if(p) p.scrollIntoView({behavior:'smooth', block:'center'});
+}
+const chatFormEl = document.getElementById('chatForm');
+if(chatFormEl) chatFormEl.addEventListener('submit', async function(ev){
+  ev.preventDefault();
+  const imie = document.getElementById('chatImie').value.trim();
+  const nazwisko = document.getElementById('chatNazwisko').value.trim();
+  const email = document.getElementById('chatEmail').value.trim();
+  const wiadomosc = document.getElementById('chatWiadomosc').value.trim();
+  const btn = document.getElementById('chatSubmit');
+  const msg = document.getElementById('chatMsg');
+  if(!imie || !nazwisko || !email || !wiadomosc) return;
+  btn.disabled = true; btn.textContent = '⏳ Wysyłanie...';
+  try{
+    try{
+      await fetch('https://batkjqjtwfduyonvjtym.supabase.co/rest/v1/kontakt_widget', {
+        method: 'POST',
+        headers: {
+          'apikey': 'sb_publishable_gUtHCxb0ICrRwqasoV766Q_C10nonpc',
+          'Authorization': 'Bearer sb_publishable_gUtHCxb0ICrRwqasoV766Q_C10nonpc',
+          'Content-Type': 'application/json',
+          'Prefer': 'return=minimal'
+        },
+        body: JSON.stringify({ imie: imie, nazwisko: nazwisko, email: email, wiadomosc: wiadomosc, ts: Date.now() })
+      });
+    }catch(err){ console.warn('Zapis w chmurze nieudany:', err); }
+    try{
+      const r = await fetch('https://formsubmit.co/ajax/kontakt@mszana.info', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+        body: JSON.stringify({
+          _subject: '🧭 Asystent mieszkańca — wiadomość od ' + imie + ' ' + nazwisko,
+          _template: 'table',
+          imie: imie, nazwisko: nazwisko, email: email, wiadomosc: wiadomosc, _replyto: email
+        })
+      });
+      if(!r.ok) throw new Error('HTTP ' + r.status);
+    }catch(err){ console.warn('E-mail nie wysłany przez FormSubmit:', err); }
+  }finally{
+    btn.disabled = false; btn.textContent = '📨 Wyślij wiadomość';
+  }
+  document.getElementById('chatForm').classList.add('hidden');
+  if(msg) msg.classList.remove('hidden');
+});
+</script>
+<script>
+// ===== LICZNIK WYŚWIETLEŃ (Supabase — REST fetch) =====
+const VIEW_URL = 'https://batkjqjtwfduyonvjtym.supabase.co';
+const VIEW_KEY = 'sb_publishable_gUtHCxb0ICrRwqasoV766Q_C10nonpc';
+async function loadViewCounter(){
+  const el = document.getElementById('viewCounter');
+  if(!el) return;
+  const show = (n) => { el.textContent = '👁️ ' + Number(n).toLocaleString('pl-PL') + ' wyświetleń'; el.classList.remove('hidden'); };
+  el.classList.remove('hidden'); el.textContent = '👁️ …';
+  try{
+    const r = await fetch(VIEW_URL + '/rest/v1/rpc/increment_view', {
+      method: 'POST',
+      headers: { 'apikey': VIEW_KEY, 'Authorization': 'Bearer ' + VIEW_KEY, 'Content-Type': 'application/json' },
+      body: '{}'
+    });
+    if(!r.ok) throw new Error('HTTP ' + r.status);
+    const data = await r.json();
+    show(data);
+  }catch(err){
+    console.warn('Licznik wyświetleń niedostępny:', err);
+    el.textContent = '👁️ —';
+  }
+}
+loadViewCounter();
+</script>
+</body>
+</html>

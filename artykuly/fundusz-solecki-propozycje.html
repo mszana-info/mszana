@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zgłoś propozycję do funduszu sołeckiego 2027! — Mszana INFO</title>
+    <meta name="description" content="Składanie propozycji do funduszu sołeckiego 2027 w Gminie Mszana: co można finansować, jak zgłosić pomysł, terminy zebrań wiejskich i kontakt do sołtysów. Zgłoś swój pomysł już dziś!">
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Fraunces:opsz,wght@9..144,600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        readable: ['Atkinson Hyperlegible', 'system-ui', 'sans-serif'],
+                        display: ['Fraunces', 'serif'],
+                    },
+                    colors: {
+                        warm: { 50:'#fdfaf3', 100:'#f9f0e0', 200:'#f3e8d0', 300:'#e8e0d0', 800:'#4a453e', 900:'#2d2a26' },
+                        sage: { 50:'#f4f7f4', 100:'#e3ebe3', 200:'#c8d9ca', 500:'#6b8f71', 600:'#4a7c59', 700:'#3d6549' }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html { scroll-behavior: smooth; }
+        body { background-color: #fdfaf3; color: #2d2a26; line-height: 1.8; font-size: 17px; }
+        .soft-card { background: #ffffff; border: 1px solid #f0e9db; box-shadow: 0 4px 24px -8px rgba(45,42,38,0.08), 0 1px 4px rgba(45,42,38,0.04); border-radius: 20px; transition: all 0.25s ease; }
+        .soft-card:hover { box-shadow: 0 12px 32px -10px rgba(45,42,38,0.12), 0 4px 12px rgba(0,0,0,0.04); }
+        .info-box { background:#fff8e6; border-left:4px solid #f59e0b; border-radius:12px; padding:14px 18px; }
+        .info-box.green { background:#eef7f0; border-left-color:#4a7c59; }
+        .info-box .tag { font-weight:700; display:block; }
+        .art-img { border-radius:16px; border:1px solid #f0e9db; box-shadow: 0 8px 28px -12px rgba(45,42,38,0.18); }
+    </style>
+</head>
+<body class="font-readable antialiased" id="bodyRoot">
+
+        <!-- ACCESSIBILITY BAR -->
+    <div class="sticky top-0 z-50 bg-warm-50/90 backdrop-blur-md border-b border-warm-200 shadow-sm">
+        <div class="max-w-[1280px] mx-auto px-5 h-[52px] flex items-center justify-between gap-3">
+            <div class="flex items-center gap-2 min-w-0 shrink-0">
+                <a href="mailto:kontakt@mszana.info" onclick="openChat(event)" class="px-3 sm:px-4 h-8 rounded-full bg-teal-600 text-white text-[13px] font-bold inline-flex items-center gap-1.5 whitespace-nowrap" title="Kontakt do redakcji — kliknij, aby napisać">📧 kontakt@mszana.info</a>
+            </div>
+            <div class="flex items-center gap-1.5 sm:gap-2 overflow-x-auto no-scrollbar">
+                <a href="https://www.facebook.com/groups/1245680220713294?locale=pl_PL" target="_blank" rel="noopener" class="px-3 sm:px-4 h-8 rounded-full bg-white border border-warm-200 text-[13px] font-bold inline-flex items-center gap-1.5 whitespace-nowrap" title="Mszana – Przejrzysta Gmina &amp; Sprawy Mieszkańców">f Grupa</a>
+                <a href="https://www.facebook.com/mszana.gmina?locale=pl_PL" target="_blank" rel="noopener" class="px-3 sm:px-4 h-8 rounded-full bg-[#0866FF] text-white text-[13px] font-bold inline-flex items-center gap-1.5 whitespace-nowrap">f Gmina</a>
+                <a href="https://mszana.ug.gov.pl" target="_blank" rel="noopener" class="hidden sm:inline-flex px-3 sm:px-4 h-8 rounded-full bg-sage-600 text-white text-[13px] font-bold items-center gap-1.5 whitespace-nowrap" title="Oficjalna strona Gminy Mszana">
+                    <img src="../assets/herb-mszana.png" alt="Herb Gminy Mszana" class="h-5 w-auto rounded-full border border-white/40">
+                    Gmina Mszana
+                </a>
+                <a href="../#forum" class="px-4 h-8 rounded-full bg-warm-900 text-warm-50 text-[13px] font-bold inline-flex items-center whitespace-nowrap">💬 Forum</a>
+                <span id="viewCounter" title="Liczba wyświetleń strony" class="hidden shrink-0 px-3 h-8 rounded-full bg-white border border-warm-200 text-[12.5px] font-bold inline-flex items-center gap-1.5 whitespace-nowrap">👁️ …</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <header class="max-w-[1280px] mx-auto px-5 pt-7 pb-4">
+        <div class="flex items-center justify-between">
+            <a class='flex items-center gap-3' href='../'>
+                <img src="../assets/logo-mszana-info.png" class="w-11 h-11 rounded-2xl bg-white p-1 shadow-sm border border-warm-200" alt="">
+                <div>
+                    <div class="font-display text-[23px] leading-none tracking-tight text-warm-900 font-bold">Mszana INFO</div>
+                    <div class="text-[11.5px] tracking-[0.12em] uppercase font-bold text-sage-600 mt-0.5">Portal Mieszkańców • Forum • Twój Głos</div>
+                </div>
+            </a>
+            <nav class="hidden lg:flex items-center gap-5 text-[14.5px] font-bold text-warm-900/75">
+                <a class='text-sage-700 bg-sage-50 px-3 py-1 rounded-full border border-sage-200' href='../#aktualnosci'>📰 Aktualności</a>
+                <a class='hover:text-sage-700' href='../#ogloszenia'>Ogłoszenia</a>
+                <a class='hover:text-sage-700' href='../#forum'>Forum</a>
+                <a class='hover:text-sage-700' href='../#mapa'>Mapa</a>
+                <a class='hover:text-sage-700' href='../#kontakt'>Sołtysi</a>
+                <a href="https://mszana.ug.gov.pl" target="_blank" rel="noopener" class="hover:text-sage-700">🏛️ UG Mszana</a>
+                <a href="https://www.facebook.com/mszana.gmina?locale=pl_PL" target="_blank" rel="noopener" class="hover:text-sage-700">f Gmina</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ARTYKUŁ -->
+    <main class="max-w-[880px] mx-auto px-5 pt-4 pb-12">
+        <a class='text-[13.5px] font-bold text-sage-700 hover:text-sage-600' href='../#aktualnosci'>← Wróć na stronę główną</a>
+
+        <div class="flex flex-wrap items-center gap-2 mt-4">
+            <span class="text-[11px] font-bold uppercase tracking-widest px-2.5 py-1 rounded-full bg-yellow-100 text-yellow-800">🏘️ Fundusz Sołecki</span>
+            <span class="text-[11px] font-bold uppercase tracking-widest px-2.5 py-1 rounded-full bg-amber-100 text-amber-800">Ważne</span>
+            <span class="text-[13px] text-warm-800/60">Mszana • Połomia • Gogołowa • sierpień 2026</span>
+        </div>
+
+        <h1 class="font-display text-[34px] sm:text-[42px] leading-[1.1] tracking-tight mt-4">
+            🏘️ Zgłoś propozycję do funduszu sołeckiego 2027 — każdy głos się liczy!
+        </h1>
+
+        <p class="text-[18px] text-warm-800/75 mt-4">
+            Każde sołectwo w Gminie Mszana ma w 2026 r. do dyspozycji <b>66 401,80 zł</b> z funduszu sołeckiego, a o podziale środków na <b>2027 rok</b> zdecydujemy na <b>zebraniach wiejskich we wrześniu</b>. To Wy — mieszkańcy — decydujecie, na co trafią pieniądze. Teraz jest najlepszy moment, żeby zgłosić swój pomysł!
+        </p>
+
+        <div class="mt-5 p-5 rounded-2xl bg-amber-50/80 border border-amber-300 border-l-4 border-l-amber-500">
+            <div class="flex items-center gap-2.5">
+                <span class="text-[20px]">📅</span>
+                <span class="font-bold text-[15px] text-amber-900">Zebrania wiejskie — wrzesień 2026 (terminy poda UG)</span>
+            </div>
+            <p class="mt-2 text-[14.5px] leading-[1.7] text-warm-900">To na zebraniach mieszkańcy wybierają zadania do realizacji w 2027 r. Przyjdź i zagłosuj — <b>quorum: Mszana i Połomia 40 osób (25 w II terminie), Gogołowa 35 osób (20 w II terminie)</b>. Bez quorum uchwała nie zapadnie i sołectwo może stracić środki.</p>
+        </div>
+
+        <h2 class="font-display text-[26px] font-bold mt-9 mb-3">✅ Na co można przeznaczyć fundusz sołecki?</h2>
+        <p>Fundusz sołecki to środki z budżetu gminy, o których przeznaczeniu decydują mieszkańcy sołectwa na zebraniu wiejskim. Najczęściej finansowane są:</p>
+        <ul class="list-disc pl-6 mt-2 space-y-1.5 text-[15px] text-warm-800/85">
+            <li><b>doposażenie świetlic wiejskich</b> (stoły, krzesła, sprzęt AGD, nagłośnienie);</li>
+            <li><b>place zabaw i siłownie plenerowe</b> — nowe urządzenia i remonty;</li>
+            <li><b>oświetlenie uliczne</b>, ławki, wiaty przystankowe, stojaki rowerowe;</li>
+            <li><b>sprzęt dla OSP</b> i jednostek pomocniczych;</li>
+            <li><b>wydarzenia integracyjne</b> — dożynki, festyny, warsztaty dla dzieci;</li>
+            <li><b>nasadzenia zieleni</b>, kwietniki, drobne remonty dróg i chodników.</li>
+        </ul>
+        <p class="mt-3 text-[14px] text-warm-800/70">Uwaga: środki muszą być wydane zgodnie z prawem i służyć ogółowi mieszkańców sołectwa — szczegóły określa uchwała Rady Gminy o funduszu sołeckim.</p>
+
+        <h2 class="font-display text-[26px] font-bold mt-9 mb-3">💡 Skąd wziąć pomysł?</h2>
+        <div class="grid sm:grid-cols-2 gap-4 mt-2">
+            <div class="soft-card p-5 bg-sage-50/70 border-sage-200">
+                <div class="font-bold text-[15px]">🔎 Rozejrzyj się po swojej miejscowości</div>
+                <p class="mt-2 text-[13.5px] leading-[1.6] text-warm-800/85">Co brakuje w Twojej okolicy? Zepsuta ławka, nieoświetlone przejście, zaniedbany plac zabaw, brak koszy na śmieci? To często najlepsze pomysły — wynikają z codziennych potrzeb sąsiadów.</p>
+            </div>
+            <div class="soft-card p-5 bg-sky-50/70 border-sky-200">
+                <div class="font-bold text-[15px]">🗣️ Porozmawiaj z sąsiadami</div>
+                <p class="mt-2 text-[13.5px] leading-[1.6] text-warm-800/85">Sprawdź, czego potrzebują inni. Pomysł poparty przez kilka osób ma większą szansę na zebraniu. Możecie też połączyć siły i zgłosić wspólny projekt.</p>
+            </div>
+        </div>
+
+        <h2 class="font-display text-[26px] font-bold mt-9 mb-3">📝 Jak zgłosić propozycję?</h2>
+        <ol class="list-decimal pl-6 mt-2 space-y-2 text-[15px] leading-[1.65] text-warm-800/90">
+            <li><b>Przygotuj propozycję</b> — opisz: co chcesz zrobić, gdzie (adres / lokalizacja), ile to może kosztować i komu posłuży. Nie musi być perfekcyjna — liczy się pomysł!</li>
+            <li><b>Opublikuj ją na Forum</b> w zakładce „🏘️ Fundusz Sołecki” — dzięki temu inni mieszkańcy zobaczą Twój pomysł i będą mogli go poprzeć 👍.</li>
+            <li><b>Wyślij też do sołtysa lub Rady Sołeckiej</b> — możesz skorzystać z naszych kontaktów poniżej lub e-maila redakcji: <a href="mailto:kontakt@mszana.info" class="font-bold text-sage-700">kontakt@mszana.info</a>.</li>
+            <li><b>Przyjdź na zebranie wiejskie</b> we wrześniu i przedstaw pomysł osobiście — to najskuteczniejszy sposób.</li>
+            <li><b>Zagłosuj!</b> Zebranie wybiera zadania do realizacji w 2027 r. — każda obecna osoba ma głos.</li>
+        </ol>
+
+        <div class="soft-card p-5 mt-6 bg-sage-50/70 border-sage-200">
+            <div class="font-bold text-[15px]">⭐ Przykładowa propozycja</div>
+            <p class="mt-2 text-[14px] leading-[1.7] text-warm-800/85"><b>„Doposażenie świetlicy wiejskiej w Mszanie”</b> — zakup 10 stołów i 40 krzeseł, aby można było organizować większe wydarzenia integracyjne i warsztaty. Koszt: ok. 8 000 zł. Korzyść: mieszkańcy, organizacje i OSP będą mieć gdzie się spotykać. — tak krótko i konkretnie można opisać każdy pomysł!</p>
+        </div>
+
+        <h2 class="font-display text-[26px] font-bold mt-9 mb-3">👥 Sołtysi — kontakt</h2>
+        <div class="space-y-2.5 mt-2">
+            <div class="soft-card p-4 flex flex-wrap items-center gap-3">
+                <div class="w-10 h-10 rounded-full bg-sage-600 text-white flex items-center justify-center font-bold shrink-0">IM</div>
+                <div class="flex-1 min-w-[200px]"><div class="font-bold">Ilona Mura</div><div class="text-[12px] uppercase font-bold text-warm-800/60">Sołtys Mszany</div></div>
+                <a href="tel:695286555" class="h-9 px-4 rounded-full bg-sage-600 text-white text-[13px] font-bold inline-flex items-center gap-1.5">📞 695 286 555</a>
+            </div>
+            <div class="soft-card p-4 flex flex-wrap items-center gap-3">
+                <div class="w-10 h-10 rounded-full bg-sky-700 text-white flex items-center justify-center font-bold shrink-0">MP</div>
+                <div class="flex-1 min-w-[200px]"><div class="font-bold">Mirosława Piechaczek</div><div class="text-[12px] uppercase font-bold text-warm-800/60">Sołtys Połomi</div></div>
+                <a href="tel:693031152" class="h-9 px-4 rounded-full bg-sky-700 text-white text-[13px] font-bold inline-flex items-center gap-1.5">📞 693 031 152</a>
+            </div>
+            <div class="soft-card p-4 flex flex-wrap items-center gap-3">
+                <div class="w-10 h-10 rounded-full bg-amber-700 text-white flex items-center justify-center font-bold shrink-0">AO</div>
+                <div class="flex-1 min-w-[200px]"><div class="font-bold">Anna Orszulik-Oślizlok</div><div class="text-[12px] uppercase font-bold text-warm-800/60">Sołtys Gogołowej</div></div>
+                <a href="tel:695210755" class="h-9 px-4 rounded-full bg-amber-700 text-white text-[13px] font-bold inline-flex items-center gap-1.5">📞 695 210 755</a>
+            </div>
+        </div>
+
+        <div class="flex flex-wrap gap-3 mt-8">
+            <a class='h-11 px-6 rounded-full bg-warm-900 text-white font-bold inline-flex items-center gap-2' href='../#forum'>💬 Zgłoś pomysł na Forum</a>
+            <a href="mailto:kontakt@mszana.info?subject=Pomys%C5%82%20do%20funduszu%20so%C5%82eckiego&body=Dzie%C5%84%20dobry%2C%0A%0Achc%C4%99%20zg%C5%82osi%C4%87%20pomys%C5%82%20do%20funduszu%20so%C5%82eckiego%20so%C5%82ectwa%3A%0A%0A%5Bopis%20pomys%C5%82u%5D%0A%0AZ%20powodzeniem%2C%0A%5Bimi%C4%99%2C%20miejscowo%C5%9B%C4%87%5D" class="h-11 px-6 rounded-full bg-white border border-warm-200 font-bold inline-flex items-center gap-2">📧 Napisz: kontakt@mszana.info</a>
+        </div>
+
+        <div class="soft-card p-6 sm:p-8 mt-10 bg-amber-50/70 border-amber-200">
+            <p class="text-[17px]"><b>🏘️ Fundusz sołecki to Wasz budżet obywatelski w skali wsi. 66 401,80 zł na każde sołectwo — to Wasze decyzje i Wasze pomysły, które realnie zmieniają Mszanę, Połomię i Gogołową. Przyjdź na zebranie i zagłosuj!</b></p>
+            <div class="flex flex-wrap gap-3 mt-4">
+                <a href="https://www.facebook.com/groups/1245680220713294?locale=pl_PL" target="_blank" class="h-10 px-5 rounded-full bg-[#0866FF] text-white text-[13.5px] font-bold inline-flex items-center gap-1.5">f Podyskutuj na grupie FB</a>
+                <a class='h-10 px-5 rounded-full bg-warm-900 text-white text-[13.5px] font-bold inline-flex items-center' href='../#forum'>💬 Napisz wątek na Forum</a>
+                <a href="https://mszana.ug.gov.pl" target="_blank" rel="noopener" class="h-10 px-5 rounded-full bg-sage-600 text-white text-[13.5px] font-bold inline-flex items-center gap-1.5">🏛️ mszana.ug.gov.pl</a>
+            </div>
+        </div>
+
+        <div class="mt-8 pt-4 border-t border-warm-200 text-[13px] text-warm-800/60">#FunduszSołecki #Mszana #Połomia #Gogołowa #BudżetObywatelski #ZebraniaWiejskie #WspólnaGmina</div>
+    </main>
+
+
+    <footer class="max-w-[1280px] mx-auto px-5 pb-10">
+        <div class="border-t border-warm-200 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-[13.5px] text-warm-800/60">
+            <div>Mszana INFO — Portal + Forum Mieszkańców Mszany, Połomi i Gogołowej.<br><span class="text-[12.5px]">Oficjalne kanały gminy: <a href="https://mszana.ug.gov.pl" target="_blank" rel="noopener" class="font-bold text-sage-700 hover:text-sage-600">mszana.ug.gov.pl</a> • <a href="https://www.facebook.com/mszana.gmina?locale=pl_PL" target="_blank" rel="noopener" class="font-bold text-sage-700 hover:text-sage-600">f Gmina (FB)</a></span><br><span class="text-[12.5px]">📧 Kontakt redakcji: <a href="mailto:kontakt@mszana.info" class="font-bold text-sage-700 hover:text-sage-600">kontakt@mszana.info</a></span></div>
+            <span class='flex flex-wrap items-center justify-center gap-3'>
+            <a class='font-bold text-sage-700 hover:text-sage-600' href='rodo.html'>🔒 Polityka prywatności (RODO)</a>
+            <a class='font-bold text-sage-700 hover:text-sage-600' href='../'>← Strona główna</a>
+            </span>
+        </div>
+    </footer>
+
+    <script>
+    </script>
+<script>
+// ===== LICZNIK WYŚWIETLEŃ (Supabase — REST fetch) =====
+const VIEW_URL = 'https://batkjqjtwfduyonvjtym.supabase.co';
+const VIEW_KEY = 'sb_publishable_gUtHCxb0ICrRwqasoV766Q_C10nonpc';
+async function loadViewCounter(){
+  const el = document.getElementById('viewCounter');
+  if(!el) return;
+  const show = (n) => { el.textContent = '👁️ ' + Number(n).toLocaleString('pl-PL') + ' wyświetleń'; el.classList.remove('hidden'); };
+  el.classList.remove('hidden'); el.textContent = '👁️ …';
+  try{
+    const r = await fetch(VIEW_URL + '/rest/v1/rpc/increment_view', {
+      method: 'POST',
+      headers: { 'apikey': VIEW_KEY, 'Authorization': 'Bearer ' + VIEW_KEY, 'Content-Type': 'application/json' },
+      body: '{}'
+    });
+    if(!r.ok) throw new Error('HTTP ' + r.status);
+    const data = await r.json();
+    show(data);
+  }catch(err){
+    console.warn('Licznik wyświetleń niedostępny:', err);
+    el.textContent = '👁️ —';
+  }
+}
+loadViewCounter();
+</script>
+</body>
+</html>
