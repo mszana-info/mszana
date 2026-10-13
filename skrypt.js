@@ -203,7 +203,6 @@
     var button = document.querySelector('[data-view-counter-consent]');
     var note = document.querySelector('[data-view-counter-note]');
     var endpoint = appsScriptUrl();
-    var consentKey = 'mszana_counter_consent';
     var requested = false;
     function setFields(value){ fields.forEach(function(field){ field.textContent = value; }); }
     function setNote(value){ if(note){ note.textContent = value; } }
@@ -215,7 +214,7 @@
       window[callback] = function(data){
         var views = data && typeof data.views === 'number' ? data.views : null;
         setFields(views === null ? '—' : new Intl.NumberFormat('pl-PL').format(views));
-        setNote(views === null ? 'Nie udało się pobrać licznika.' : 'licznik obejmuje odsłony po wyrażeniu zgody na statystykę');
+        setNote(views === null ? 'Nie udało się pobrać licznika.' : 'łączna liczba odsłon serwisu');
         if(button){ button.hidden = true; }
         delete window[callback];
       };
@@ -235,19 +234,8 @@
       if(button){ button.hidden = true; }
       return;
     }
-    if(store.get(consentKey) === '1'){
-      requestCounter();
-    } else {
-      setFields('—');
-      setNote('włącz licznik, aby wyrazić zgodę na anonimową statystykę odsłon');
-      if(button){
-        button.hidden = false;
-        button.addEventListener('click', function(){
-          store.set(consentKey, '1');
-          requestCounter();
-        });
-      }
-    }
+    if(button){ button.hidden = true; }
+    requestCounter();
   }
   initContactDelivery();
   initViewCounter();
