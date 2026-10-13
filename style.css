@@ -204,6 +204,11 @@ footer.site a:hover{color:#fff}
 .foot-legal{border-top:1px solid rgba(255,255,255,.18);margin-top:26px;padding-top:20px}
 .foot-legal p{font-size:.9rem;color:#bcd6c8}
 .foot-bottom{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;align-items:center;border-top:1px solid rgba(255,255,255,.18);margin-top:20px;padding-top:16px;font-size:.85rem}
+.service-counter{display:inline-flex;align-items:center;gap:6px;flex-wrap:wrap}
+.service-counter strong{color:#fff;font-variant-numeric:tabular-nums}
+.counter-consent{border:1px solid #a9e0bf;background:transparent;color:#fff;border-radius:999px;padding:4px 9px;font:inherit;font-size:.82rem;font-weight:700;cursor:pointer}
+.counter-consent:hover{background:rgba(255,255,255,.12)}
+.honeypot{position:absolute!important;left:-10000px!important;width:1px!important;height:1px!important;overflow:hidden!important}
 
 /* ---------- Modal RODO ---------- */
 .modal[hidden]{display:none}

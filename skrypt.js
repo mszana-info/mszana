@@ -148,28 +148,109 @@
       /* Formularz działa przez klienta poczty użytkownika (action="mailto:...") */
     });
   }
-  handleForm('contactForm', 'Dziękujemy! Twój program pocztowy otworzy wiadomość do kontakt@mszana.info — wystarczy kliknąć „Wyślij”.', true);
+  handleForm('contactForm', 'Trwa przekazywanie wiadomości…', true);
   handleForm('correctionForm', 'Dziękujemy! Sprostowanie zostanie przekazane na kontakt@mszana.info i potraktowane priorytetowo zgodnie z Regulaminem.', false);
 
-  /* ---------- Zbiorczy licznik odsłon (własny endpoint PHP) ---------- */
-  function loadViewCounter(){
-    var fields = document.querySelectorAll('[data-view-counter]');
-    if(!fields.length || !window.fetch){ return; }
-    fetch('licznik.php', {cache:'no-store', credentials:'same-origin', headers:{'Accept':'application/json'}})
-      .then(function(response){
-        if(!response.ok){ throw new Error('counter request failed'); }
-        return response.json();
-      })
-      .then(function(data){
-        if(!data || typeof data.views !== 'number'){ throw new Error('invalid counter data'); }
-        var value = new Intl.NumberFormat('pl-PL').format(data.views);
-        fields.forEach(function(field){ field.textContent = value; });
-      })
-      .catch(function(){
-        fields.forEach(function(field){ field.textContent = '—'; });
-      });
+  /* ---------- Google Apps Script: formularz i zbiorczy licznik ---------- */
+  function appsScriptUrl(){
+    var cfg = window.MSZANA_CONFIG || {};
+    var url = typeof cfg.APPS_SCRIPT_URL === 'string' ? cfg.APPS_SCRIPT_URL.trim() : '';
+    return /^https:\/\/script\.google\.com\/macros\/s\/[A-Za-z0-9_-]+\/exec$/.test(url) ? url : '';
   }
-  loadViewCounter();
+  function setFormMessage(message, isError){
+    var msg = document.getElementById('formMsg');
+    if(!msg){ return; }
+    msg.textContent = message;
+    msg.classList.add('show');
+    msg.classList.toggle('error', !!isError);
+  }
+  function initContactDelivery(){
+    var form = document.getElementById('contactForm');
+    if(!form){ return; }
+    var startedAt = document.getElementById('formStartedAt');
+    if(startedAt){ startedAt.value = String(Date.now()); }
+    var endpoint = appsScriptUrl();
+    var frame = document.getElementById('contactTransport');
+    var sent = false;
+    if(!endpoint){
+      form.addEventListener('submit', function(e){
+        if(e.defaultPrevented){ return; }
+        e.preventDefault();
+        setFormMessage('Formularz wymaga jeszcze adresu wdrożonego Google Apps Script. Administrator powinien uzupełnić plik config.js.', true);
+      });
+      return;
+    }
+    form.action = endpoint;
+    form.method = 'post';
+    form.enctype = 'application/x-www-form-urlencoded';
+    form.target = 'contactTransport';
+    form.addEventListener('submit', function(e){
+      if(e.defaultPrevented){ return; }
+      sent = true;
+      setFormMessage('Wiadomość jest wysyłana…', false);
+    });
+    if(frame){
+      frame.addEventListener('load', function(){
+        if(!sent){ return; }
+        sent = false;
+        form.reset();
+        setFormMessage('Wiadomość została przekazana na adres kontaktowy. Odpowiemy możliwie szybko.', false);
+      });
+    }
+  }
+  function initViewCounter(){
+    var fields = document.querySelectorAll('[data-view-counter]');
+    var button = document.querySelector('[data-view-counter-consent]');
+    var note = document.querySelector('[data-view-counter-note]');
+    var endpoint = appsScriptUrl();
+    var consentKey = 'mszana_counter_consent';
+    var requested = false;
+    function setFields(value){ fields.forEach(function(field){ field.textContent = value; }); }
+    function setNote(value){ if(note){ note.textContent = value; } }
+    function requestCounter(){
+      if(requested || !endpoint){ return; }
+      requested = true;
+      setFields('…');
+      var callback = 'mszanaCounterCallback_' + Date.now() + '_' + Math.floor(Math.random()*100000);
+      window[callback] = function(data){
+        var views = data && typeof data.views === 'number' ? data.views : null;
+        setFields(views === null ? '—' : new Intl.NumberFormat('pl-PL').format(views));
+        setNote(views === null ? 'Nie udało się pobrać licznika.' : 'licznik obejmuje odsłony po wyrażeniu zgody na statystykę');
+        if(button){ button.hidden = true; }
+        delete window[callback];
+      };
+      var script = document.createElement('script');
+      script.src = endpoint + '?action=count&callback=' + encodeURIComponent(callback) + '&_=' + Date.now();
+      script.async = true;
+      script.onerror = function(){
+        setFields('—'); setNote('Nie udało się pobrać licznika.');
+        delete window[callback];
+      };
+      document.head.appendChild(script);
+    }
+    if(!fields.length){ return; }
+    if(!endpoint){
+      setFields('—');
+      setNote('licznik zostanie uruchomiony po konfiguracji serwisu');
+      if(button){ button.hidden = true; }
+      return;
+    }
+    if(store.get(consentKey) === '1'){
+      requestCounter();
+    } else {
+      setFields('—');
+      setNote('włącz licznik, aby wyrazić zgodę na anonimową statystykę odsłon');
+      if(button){
+        button.hidden = false;
+        button.addEventListener('click', function(){
+          store.set(consentKey, '1');
+          requestCounter();
+        });
+      }
+    }
+  }
+  initContactDelivery();
+  initViewCounter();
 })();
 
 /* =========================================================

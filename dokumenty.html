@@ -251,12 +251,14 @@
 
       <p><small>Administrator danych osobowych: Administrator Serwisu Mszana.info,
       <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="147f7b7a60757f605479676e757a753a7d7a727b">[email&#160;protected]</a>. Pełna klauzula informacyjna RODO jest dostępna po kliknięciu adresu e-mail w lewym górnym
-      rogu strony. Strona nie używa plików cookie do śledzenia ani nie prowadzi profilowania użytkowników. Zbiorczy licznik odsłon nie tworzy profilu użytkownika ani nie zapisuje identyfikatora w przeglądarce.</small></p>
+      rogu strony. Po dobrowolnym włączeniu licznika odsłon Serwis korzysta z Google Apps Script wyłącznie do zapisu wspólnej liczby odsłon; wybór jest zapamiętywany lokalnie w przeglądarce. Licznik nie rozpoznaje unikalnych osób ani nie służy profilowaniu.</small></p>
     </div>
 
     <div class="foot-bottom">
       <span>© <span id="year">2026</span> Mszana.info — niezależna społeczna platforma informacyjno-społeczna mieszkańców Gminy Mszana.</span>
-      <span class="service-counter">Odsłony serwisu: <strong data-view-counter aria-live="polite">…</strong><small> — licznik zbiorczy</small></span>
+      <span class="service-counter">Odsłony serwisu: <strong data-view-counter aria-live="polite">…</strong>
+      <button type="button" class="counter-consent" data-view-counter-consent hidden>Włącz licznik</button>
+      <small data-view-counter-note>— anonimowa statystyka odsłon</small></span>
     </div>
   </div>
 </footer>
@@ -282,7 +284,7 @@
       <h3>3. Zakres danych, okres przechowywania i odbiorcy</h3>
       <p>Przetwarzamy wyłącznie dane przekazane dobrowolnie: podpis, adres e-mail, sołectwo oraz treść wiadomości.
       Dane przechowujemy przez czas korespondencji, nie dłużej niż 12 miesięcy od jej zakończenia. Odbiorcami mogą być
-      wyłącznie dostawcy hostingu i poczty elektronicznej oraz organy publiczne, gdy obowiązek wynika z przepisów prawa.
+      dostawcy hostingu i poczty elektronicznej, usługa Google Apps Script obsługująca formularz i licznik odsłon oraz organy publiczne, gdy obowiązek wynika z przepisów prawa.
       Dane nie są sprzedawane ani udostępniane w celach marketingowych.</p>
 
       <h3>4. Twoje prawa</h3>
@@ -292,7 +294,7 @@
       <a href="/cdn-cgi/l/email-protection#3b5054554f5a504f7b5648415a555a1552555d54"><span class="__cf_email__" data-cfemail="3b5054554f5a504f7b5648415a555a1552555d54">[email&#160;protected]</span></a>.</p>
 
       <h3>5. Pliki cookie</h3>
-      <p>Strona nie używa plików cookie do śledzenia ani nie prowadzi profilowania użytkowników. Zbiorczy licznik odsłon działa wyłącznie po włączeniu JavaScriptu; nie tworzy profilu użytkownika ani nie zapisuje identyfikatora w przeglądarce.</p>
+      <p>Strona nie prowadzi profilowania. Licznik odsłon działa wyłącznie po włączeniu JavaScriptu oraz po dobrowolnym kliknięciu „Włącz licznik”; korzysta wtedy z Google Apps Script, a wybór jest zapamiętywany lokalnie w przeglądarce. Bez JavaScriptu licznik nie jest uruchamiany.</p>
     </div>
   </section>
 </noscript>
@@ -330,8 +332,7 @@
     lub obrony roszczeń.</p>
 
     <h3>5. Odbiorcy danych</h3>
-    <p>Dane mogą być przekazane wyłącznie: dostawcom usług hostingu i poczty elektronicznej (podmioty przetwarzające
-    działające na nasze zlecenie), a także organom publicznym — jeśli obowiązek przekazania wynika z przepisów prawa.
+    <p>Dane mogą być przekazane wyłącznie: dostawcom hostingu i poczty elektronicznej, usłudze Google Apps Script obsługującej formularz i licznik odsłon oraz organom publicznym — jeśli obowiązek przekazania wynika z przepisów prawa.
     <strong>Nie sprzedajemy i nie udostępniamy danych w celach marketingowych.</strong></p>
 
     <h3>6. Twoje prawa</h3>
@@ -355,10 +356,10 @@
     odpowiedzieć na Twoją wiadomość.</p>
 
     <h3>8. Profilowanie i zautomatyzowane decyzje</h3>
-    <p>Dane nie są wykorzystywane do profilowania ani do podejmowania zautomatyzowanych decyzji. Informacja o ewentualnym przekazywaniu danych poza Europejski Obszar Gospodarczy zależy od usług faktycznie używanych do hostingu i poczty; aktualnej informacji Administrator udziela na żądanie.</p>
+    <p>Dane nie są wykorzystywane do profilowania ani do podejmowania zautomatyzowanych decyzji. W związku z użyciem Google Apps Script dane techniczne połączenia oraz dane przesłane formularzem mogą być przetwarzane przez infrastrukturę Google, także poza Europejskim Obszarem Gospodarczym, na zasadach i z zabezpieczeniami stosowanymi przez tego dostawcę.</p>
 
     <h3>9. Pliki cookie</h3>
-    <p>Strona nie używa plików cookie do śledzenia użytkowników i nie prowadzi analityki zewnętrznej. Widoczny licznik przedstawia łączną liczbę odsłon zapisanych przez własny endpoint Serwisu; nie rozpoznaje unikalnych osób, nie zapisuje identyfikatora w przeglądarce i nie służy profilowaniu.</p>
+    <p>Strona nie prowadzi profilowania ani reklamowej analityki. Po dobrowolnym kliknięciu „Włącz licznik” przeglądarka zapamiętuje ten wybór lokalnie i wysyła do Google Apps Script żądanie aktualizacji jednej wspólnej liczby odsłon. Licznik nie rozpoznaje unikalnych osób i nie zapisuje indywidualnego identyfikatora w bazie Serwisu; usługa Google może jednak przetwarzać dane techniczne połączenia na własnych zasadach.</p>
 
     <h3>10. Treści publikowane w grupie</h3>
     <p>Za treści publikowane przez użytkowników w grupie dyskusyjnej i w komentarzach odpowiadają ich autorzy.
@@ -373,6 +374,6 @@
   </div>
 </div>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="skrypt.js"></script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="config.js"></script><script src="skrypt.js"></script>
 <script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a475fb78cb550e08',t:'MTc5MTQ3MTI4Mg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
