@@ -4,7 +4,16 @@ Materiały seminaryjne powstałe na podstawie wystąpienia „Muzeum bez ścian.
 w ludziach”: o muzeum partycypacyjnym, Drodze Loslau, kamieniach pamięci, Ogrodzie
 Sprawiedliwych, Archiwum Pamięci i tandemach pokoleń.
 
-## Pliki
+## Najszybszy sposób — jeden plik do pobrania
+
+| Plik | Zawartość |
+|---|---|
+| `pobierz/prezentacja-i-przemowienie-muzeum-bez-scian.zip` | **wszystko**: prezentacja .pptx (z notatkami) + prezentacja PDF + przemówienie PDF i .md + artykuł PDF i .md + instrukcja JAK-KORZYSTAĆ.txt |
+| `pobierz/prezentacja-i-przemowienie-muzeum-bez-scian.pdf` | **jeden dokument**: okładka + 25 slajdów + przemówienie + artykuł (47 stron) |
+
+Do odtworzenia pakietu: `python generate_pakiet.py`
+
+## Pliki źródłowe
 
 | Plik | Co to jest |
 |---|---|

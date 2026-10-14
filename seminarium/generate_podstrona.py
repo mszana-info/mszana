@@ -464,15 +464,26 @@ TRESC = """
         </p>
       </div>
 
-      <p class="zrodla" style="margin-top:22px">
-        <small>
-          Tekst powstał na podstawie wystąpienia seminaryjnego „Muzeum bez ścian. Dziedzictwo
-          mieszka w ludziach”. Wersje do pobrania:
-          <a href="seminarium/artykul-muzeum-bez-scian.pdf">artykuł (PDF)</a> ·
-          <a href="seminarium/prezentacja-muzeum-bez-scian.pdf">prezentacja (PDF)</a> ·
-          <a href="seminarium/przemowienie-muzeum-bez-scian.pdf">przemówienie (PDF)</a>.
-        </small>
-      </p>
+      <div class="card soft" style="margin-top:22px">
+        <h3>Materiały do pobrania</h3>
+        <ul class="links">
+          <li>
+            <a href="seminarium/pobierz/prezentacja-i-przemowienie-muzeum-bez-scian.zip" download>
+              Prezentacja + przemówienie + artykuł — paczka ZIP (do edycji i do druku) →</a>
+          </li>
+          <li>
+            <a href="seminarium/pobierz/prezentacja-i-przemowienie-muzeum-bez-scian.pdf" download>
+              Wszystko w jednym PDF: slajdy + przemówienie + artykuł →</a>
+          </li>
+          <li><a href="seminarium/prezentacja-muzeum-bez-scian.pdf">Prezentacja — PDF (25 slajdów) →</a></li>
+          <li><a href="seminarium/przemowienie-muzeum-bez-scian.pdf">Przemówienie — PDF (13 stron, do czytania z mównicy) →</a></li>
+          <li><a href="seminarium/artykul-muzeum-bez-scian.pdf">Artykuł — PDF (z przypisami) →</a></li>
+        </ul>
+        <p style="margin:10px 0 0"><small>
+          W paczce ZIP znajduje się też prezentacja w wersji edytowalnej (.pptx, z notatkami
+          prelegenta) oraz teksty źródłowe (.md).
+        </small></p>
+      </div>
     </article>
   </div>
 </section>
