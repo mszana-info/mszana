@@ -1,21 +1,23 @@
-# Karta pracy — czasownik „to be” (klasa 4)
+# Karta pracy — czasownik „to be” (klasa 4) · do druku
 
 Materiał do wydruku dla uczniów: **język angielski, klasa 4** — czasownik *to be* w zdaniach
 **twierdzących** i **przeczących** (*am / is / are*, przeczenie *not*, skróty *I’m not, isn’t, aren’t*).
+6 zadań (40 pkt) + zadanie dodatkowe „Dla chętnych”, ramka gramatyczna, słowniczek, samoocena.
 
-## Plik do rozdania
+## Pliki do druku (A4, 100%)
 
-| Plik | Zawartość |
-|---|---|
-| `karta-pracy-to-be-klasa4.pdf` | A4, 3 strony: **s. 1–2 karta pracy dla ucznia**, **s. 3 klucz odpowiedzi** (do wydruku dla nauczyciela) |
+| Plik | Strony | Do czego |
+|---|---|---|
+| `karta-pracy-to-be-klasa4-dla-ucznia.pdf` | 2 | dla uczniów — **bez klucza odpowiedzi**; tyle kopii, ilu uczniów |
+| `karta-pracy-to-be-klasa4-dla-nauczyciela.pdf` | 3 | wersja z **kluczem odpowiedzi** i kryteriami oceny (s. 3) |
+| `karta-pracy-to-be-klasa4-eko-do-druku.pdf` | 2 | wersja **bez teł kolorystycznych** — oszczędza toner, dobra w czerni i bieli |
 
-Karta zawiera 6 zadań (razem 40 punktów) + zadanie dodatkowe „Dla chętnych”, ramkę
-gramatyczną „Zapamiętaj!”, słowniczek i miejsce na samoocenę. Drukować w skali 100%
-(A4, bez „dopasuj do strony”), najlepiej jednostronnie — strony 1–2 dla ucznia, strona 3 dla nauczyciela.
+**Ustawienia druku:** A4, skala 100% (bez „dopasuj do strony”), jednostronnie.
+Wersję dla nauczyciela warto wydrukować 1×, uczniowie dostają 2 strony.
 
-## Jak wygenerować plik ponownie / zmienić treść
+## Jak zmienić treść i wygenerować pliki ponownie
 
-Treść i układ są opisane w skrypcie — edytuj listy `z1`–`z6` (zadania) oraz `klucz` (odpowiedzi).
+Treść zadań i odpowiedzi jest w skrypcie: listy `z1`–`z6` oraz `klucz` (i `slowka`, `wiersze_gram`).
 
 ```bash
 pip install reportlab      # wymagane
@@ -23,12 +25,12 @@ pip install pypdfium2      # opcjonalne: numeracja „strona x z N” w stopce
 python generate_karta_pracy.py
 ```
 
-Skrypt zapisuje plik `karta-pracy-to-be-klasa4.pdf` w tym samym katalogu.
+Skrypt tworzy na nowo wszystkie trzy pliki PDF w tym katalogu.
 
 ## Podlinkowanie na stronie (opcjonalnie)
 
 ```html
-<a href="karta-pracy/karta-pracy-to-be-klasa4.pdf" download>
-  Karta pracy „to be” (PDF, klasa 4)
+<a href="karta-pracy/karta-pracy-to-be-klasa4-dla-ucznia.pdf" download>
+  Karta pracy „to be” (PDF, klasa 4) — do druku
 </a>
 ```
