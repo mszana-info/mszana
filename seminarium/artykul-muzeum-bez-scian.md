@@ -8,7 +8,9 @@ W styczniu 1945 roku przez Wodzisław Śląski przeszła kolumna więźniów ewa
 
 ## 1. Historia, którą widziała siedmioletnia dziewczynka
 
-W lutym 2025 roku, podczas pierwszego Marszu Pamięci prowadzącego trasą przez Żory, przed jednym z domów w Świerklanach stanęła starsza kobieta. Powiedziała przez łzy: „Miałam siedem lat wtedy i wszystko widziałam — tych więźniów to było straszne, wszystko widziałam…".
+W styczniu 2025 roku, podczas pierwszego Marszu Pamięci prowadzącego trasą przez Żory, przed jednym z domów w Świerklanach stanęła starsza kobieta. Powiedziała przez łzy: „Miałam siedem lat wtedy i wszystko widziałam — tych więźniów to było straszne, wszystko widziałam…".
+
+Była to trasa Pszczyna – Żory – Wodzisław Śląski, przebyta po raz pierwszy 25 i 26 stycznia 2025 roku z inicjatywy żorzanina Tomasza Przybylskiego. W Świerklanach, przy cmentarzu parafialnym, leży trzynaścioro więźniów zamordowanych 18 stycznia 1945 roku — tych, którzy nie mogli iść dalej; miejscowa ludność pochowała ich na cmentarzu, a w 1948 roku ufundowała pomnik.
 
 Muzeum może mieć dokumenty. Ta pani miała historię.
 
@@ -16,7 +18,19 @@ I właśnie dlatego cała ta opowieść jest w gruncie rzeczy o jednym zdaniu: *
 
 Za pięć, dziesięć lat te historie odejdą razem z ostatnimi świadkami. Nie mamy pięćdziesięciu lat. Mamy pięć. Może dziesięć.
 
-## 2. Od gabloty do dialogu
+## 2. Mszana — nasza mogiła, nasza pamięć
+
+Ta droga nie kończy się gdzieś daleko. Przechodzi przez naszą gminę.
+
+Na cmentarzu parafialnym w Mszanie, przy kościele świętego Jerzego, znajduje się **Grób Ofiar Marszu Śmierci**. Spoczywają w nim **33 ofiary** — ci, którzy nie przeżyli pieszej wędrówki na mrozie, i ci, którzy zginęli już na terenie naszej wsi. Ciała złożyli mieszkańcy Mszany — i to mieszkańcy dbają o ten grób do dzisiaj.
+
+W 1965 roku, z okazji dwudziestej rocznicy wyzwolenia, społeczeństwo ufundowało nad bezimienną mogiłą pomnik — z własnych pieniędzy. A w 2011 roku pracownicy Ministerstwa Edukacji w Izraelu, z pomocą archiwistów Muzeum w Oświęcimiu i Instytutu Yad Vashem w Jerozolimie, po numerach obozowych ustalili nazwiska **czworga** z nich. Na grobie odsłonięto nowe tablice, a przyjechała trzydziestoosobowa delegacja z Izraela — potomkowie polskich Żydów, władze gminy, mieszkańcy.
+
+W przedsionku mszańskiego kościoła strona izraelska ufundowała jeszcze jedną tablicę: wyraz wdzięczności obywateli Izraela dla mieszkańców Mszany, którzy w styczniu 1945 roku ratowali innych, narażając własne życie. Od 2011 roku Grób Ofiar Marszu Śmierci w Mszanie jest stałym punktem wycieczek z Izraela.
+
+**Pamięć nie jest abstrakcją. Pamięć ma adres: cmentarz przy świętym Jerzym w Mszanie.**
+
+## 3. Od gabloty do dialogu
 
 Jeszcze pół wieku temu muzeum kojarzyło się z ciszą, dystansem i kontemplacją — przestrzenią, w której eksponat chroniony gablotą i czerwonym sznurem oddzielał widza od dzieła. Współcześnie ten model przechodzi głęboką przemianę.
 
@@ -28,7 +42,7 @@ Punktem zwrotnym w myśleniu o instytucjach muzealnych był ruch nazywany **now�
 
 Nie chodzi już o to, by dodać kolejny eksponat czy kolejną salę. Chodzi o to, by muzeum przestało być miejscem, do którego się przychodzi, a stało się miejscem, które się współtworzy.[^3]
 
-## 3. Muzeum partycypacyjne w praktyce
+## 4. Muzeum partycypacyjne w praktyce
 
 Sztuka partycypacyjna i sztuka *site-specific* to dziś stała praktyka. Wystawy powstają wspólnie z mieszkańcami — przez konsultacje i wspólne wybieranie tematów. Dobrym przykładem jest doroczna wystawa budowana z przedmiotów i historii, które przynoszą sami mieszkańcy. Muzeum nie musi zgadywać, co interesuje ludzi z jego okolicy. Może ich po prostu zapytać.
 
@@ -38,7 +52,7 @@ Warto zobaczyć, jak to wygląda tam, gdzie działa to od lat. W Wiedniu od 2023
 
 To nie są pojedyncze gesty. To metoda.
 
-## 4. Dostęp jest prawem, nie przywilejem
+## 5. Dostęp jest prawem, nie przywilejem
 
 Jest jeszcze poziom wojewódzki — bo do niezainteresowanych nie dotrzemy sami, jednym budynkiem.
 
@@ -48,7 +62,7 @@ Wyobraźmy to sobie u nas: każdy uczeń w województwie śląskim dostaje raz w
 
 **Nie namawiamy. Nie przekonujemy. Otwieramy drzwi — i patrzymy, kto wejdzie.**
 
-## 5. Eko-muzeum: muzeum rozproszone
+## 6. Eko-muzeum: muzeum rozproszone
 
 Kolejny model to **eko-muzeum**, czyli muzeum rozproszone. Ma potencjał terytorialny: zamiast jednego budynku obejmuje całe miasto i jego okolice.
 
@@ -61,9 +75,9 @@ Punktami takiej sieci mogą być u nas miejsca, które już istnieją:
 
 To gotowe punkty, z których można zbudować prawdziwą sieć eko-muzealną. **Sztuka może wyjść z sal na ulicę.**
 
-## 6. Droga Loslau: trasa, którą się przechodzi
+## 7. Droga Loslau: trasa, którą się przechodzi
 
-Przez Wodzisław Śląski przechodzi niewidzialna ścieżka. Prowadzi od granic miasta, przez konkretne ulice, aż do dworca. Jej przebieg odtworzył wodzisławski historyk Piotr Hojka,[^8] a od 2012 roku idzie nią co stycznia Marsz Pamięci. Dziś upamiętniają ją trzy osobne punkty: tablica przy ulicy Michalskiego, miejsce pamięci na dworcu, pomnik i krzyż.
+Przez Wodzisław Śląski przechodzi niewidzialna ścieżka. Prowadzi od granic miasta, przez konkretne ulice, aż do dworca. Jej przebieg odtworzył wodzisławski historyk Piotr Hojka,[^8] a od 2012 roku idzie nią co stycznia Marsz Pamięci. Dziś upamiętniają ją trzy osobne punkty: tablica przy ulicy Michalskiego, tablica na dworcu kolejowym przy ulicy Rybnickiej oraz pomnik ofiar i krzyż przy ulicy Ofiar Oświęcimskich — na Piaskowej Górze, gdzie grobem ofiar stał się dół dawnej piaskowni.
 
 Te trzy punkty można połączyć. W jedną trasę. W jedno żywe eko-muzeum pod otwartym niebem:
 
@@ -79,7 +93,7 @@ Tak samo może istnieć nasza: ten sam znak i ten sam symbol w Oświęcimiu, Psz
 
 **To byłoby muzeum, przez które się przechodzi. Dosłownie.**
 
-## 7. Kamienie pamięci i Ogród Sprawiedliwych
+## 8. Kamienie pamięci i Ogród Sprawiedliwych
 
 W 1992 roku niemiecki artysta Gunter Demnig wmurował w bruk Kolonii pierwszą betonową kostkę z mosiężną tabliczką — z imieniem, datą i miejscem śmierci. Dziś takich kamieni jest ponad sto dwadzieścia tysięcy, w ponad trzydziestu krajach Europy. W Polsce leżą między innymi we Wrocławiu, Warszawie i Poznaniu. **W Wodzisławiu — jeszcze żadnego.**[^12]
 
@@ -91,7 +105,7 @@ Obok nich potrzebna jest druga pamięć. Pierwszy **Ogród Sprawiedliwych** pows
 
 **Kamienie — dla tych, którzy szli. Drzewa — dla tych, którzy nie odwrócili wzroku.**
 
-## 8. Archiwum Pamięci: najcenniejsze eksponaty leżą w szufladach
+## 9. Archiwum Pamięci: najcenniejsze eksponaty leżą w szufladach
 
 Każdy mieszkaniec może przynieść coś, co ma znaczenie: nagrane wspomnienie, zeskanowaną fotografię albo przedmiot z historią. Wychodzi z poczuciem, że jego życie stało się częścią historii miasta.
 
@@ -101,7 +115,7 @@ Jeśli Archiwum Pamięci ma powstać — a powinno — to jego pierwszym zadanie
 
 Że to nie marzenie, pokazuje przykład z Austrii. **Topothek** to ogólnokrajowa platforma na prywatne zdjęcia, dokumenty i nagrania lokalne: dziś działa w około 450 gminach, zawiera ponad dwa miliony wpisów i tworzy je ponad trzy tysiące wolontariuszy. Prawa do materiałów zostają u mieszkańców, gmina używa tylko kopii, a wartość zbioru rośnie z każdym opisem dodanym przez ludzi, którzy pamiętają szczegóły.[^14]
 
-## 9. Sztuka i technologie w przestrzeni miasta
+## 10. Sztuka i technologie w przestrzeni miasta
 
 Street art i sztuka publiczna mogą być przedłużeniem muzeum w tkance miasta. Sztuka nie musi czekać w salach. Może mieszkać tam, gdzie toczy się życie. Wyobraźmy sobie:
 
@@ -115,7 +129,7 @@ Obok sztuki — narzędzia cyfrowe. Aplikacja rozszerzonej rzeczywistości, któ
 
 Historia nie musi kończyć się na progu budynku. Może towarzyszyć każdemu, kto nosi ją w kieszeni. Wystarczy trzydzieści sekund głosu mieszkanki, której babcia widziała przechodzącą kolumnę — i ulica, którą dotąd mijaliśmy obojętnie, zaczyna mówić.
 
-## 10. Ludzie: tandemy pokoleń
+## 11. Ludzie: tandemy pokoleń
 
 W tym wszystkim najważniejsi są ludzie: wolontariusze dziedzictwa, seniorzy, którzy zostają przewodnikami po własnych wspomnieniach, i młodzi, którzy potrafią je zapisać i udostępnić.
 
@@ -125,7 +139,7 @@ Działają tu formy dobrze znane, wystarczy je wprowadzić: tandemy pokoleń prz
 
 **Dziedzictwo przekazuje się między ludźmi albo nie przekazuje się wcale.**
 
-## 11. Nauczyciel doceniony nie odpuszcza
+## 12. Nauczyciel doceniony nie odpuszcza
 
 Żadna młodzież nie pokocha historii, jeśli nie poprowadzi jej ktoś, kto sam czuje, że ta praca ma sens i prestiż. Dlatego potrzebne są konkursy, które nagradzają nie tylko uczniów — ale i nauczycieli. Takie konkursy już istnieją.
 
@@ -133,7 +147,7 @@ Od 2006 roku **Nagroda im. Ireny Sendlerowej „Za naprawianie świata"** honoru
 
 Te konkursy już są. Wystarczy po nie sięgnąć — albo zgłosić do nich nauczyciela, który obok nas stoi. **Bo nauczyciel doceniony to nauczyciel, który nie odpuszcza.**
 
-## 12. Pięć kroków i brakujące podpisy
+## 13. Pięć kroków i brakujące podpisy
 
 1. **Zapisać wspomnienia.** Dopóki jeszcze są.
 2. **Współdecydować z mieszkańcami.** Nie konsultować — współdecydować.
@@ -145,7 +159,7 @@ Te konkursy już są. Wystarczy po nie sięgnąć — albo zgłosić do nich nau
 
 **Taki plan jest już napisany. Brakuje podpisów.**
 
-## 13. Ten pałac powstał z miłości
+## 14. Ten pałac powstał z miłości
 
 Pałac przeszedł już pierwszy, kluczowy etap przemiany: z zaniedbanego budynku administracyjnego stał się nowoczesną, dostępną przestrzenią kultury. Teraz czas, by odzyskał to, co najważniejsze — głos ludzi.
 
@@ -186,10 +200,14 @@ Nie chodzi o to, żeby jedno zasłaniało drugie. Chodzi o to, żeby jedno drugi
 [^5]: Wiedeński projekt *Migration sammeln* (2015/2016) i wystawa *Geteilte Geschichte. Viyana – Beč – Wien* (2018).
 [^6]: Bon kulturowy dla młodzieży: francuski *Pass Culture*; Włochy i Hiszpania — programy o zbliżonym charakterze. — *Potwierdzić aktualne nazwy i zakres programów.*
 [^7]: Bezpłatne muzea narodowe w Wielkiej Brytanii od 2001 r.; wolny wstęp do wystawy stałej Wien Museum od 6 grudnia 2023 r. — wien.ORF.at, „Wien-Museum-Dauerausstellung wird gratis", 16.10.2023.
-[^8]: P. Hojka, *Kierunek Loslau*, Muzeum w Wodzisławiu Śląskim.
+[^8]: P. Hojka, *Kierunek Loslau*, Muzeum w Wodzisławiu Śląskim. Początek Marszu Pamięci: 5–6 stycznia 2012 r. trasę przeszedł 15-osobowy zespół mieszkańców z inicjatywy śp. Jana Stolarza; od tego roku marsz odbywa się corocznie (od 2012 r. trasą przez Mszanę).
 [^9]: „Todesmarsch-Mahnmal in Karlsfeld: Ein Ende des Schattendaseins", Süddeutsche Zeitung, 27.01.2025 (22 identyczne pomniki Huberta von Pilgrima wzdłuż trasy marszu z Dachau; jeden egzemplarz w Yad Vashem w Jerozolimie).
 [^10]: Hasło „Hubertus von Pilgrim", Wikipedia (niem.).
 [^11]: Szlak Wyzwolenia Europy (Rada Europy) — *potwierdzić aktualny status szlaku i procedurę wniosku o włączenie trasy.*
+
+[^19]: Trasa i miejsca pamięci: tablica przy ul. Michalskiego 4a, tablica na dworcu kolejowym (ul. Rybnicka 2A), pomnik ofiar i krzyż przy ul. Ofiar Oświęcimskich (Góra Piaskowa) — Starostwo Powiatowe w Wodzisławiu Śląskim, „17–23 stycznia 1945 r. Pamiętamy!”; wykaz obiektów PTTK „Szlakiem Ewakuacji Więźniów KL Auschwitz”. Pierwszy Marsz Pamięci przez Żory: 25–26 stycznia 2025 r., trasa Pszczyna – Żory – Wodzisław Śląski (Urząd Miasta Żory).
+
+[^20]: Mszana: Grób Ofiar Marszu Śmierci na cmentarzu parafialnym przy kościele św. Jerzego — 33 ofiary; pomnik ufundowany przez społeczeństwo w 1965 r.; tablice z nazwiskami czworga zidentyfikowanych więźniów odsłonięte w 2011 r.; tablica wdzięczności dla mieszkańców Mszany w przedsionku kościoła — Urząd Gminy Mszana, „Miejsca pamięci”.
 [^12]: Stolpersteine / kamienie pamięci: pierwsza kostka w Kolonii w 1992 r.; ponad 120 000 kamieni w ponad 30 krajach Europy (stan na 2025 r.); stolpersteine.eu. Koszt pojedynczego kamienia i procedurę potwierdzić w aktualnych materiałach organizacji fundującej.
 [^13]: Ogród Sprawiedliwych: Mediolan (od 2003 r.), Warszawa (od 2014 r.). — *Potwierdzić w źródłach GARIWO oraz Ogród Sprawiedliwych w Warszawie.*
 [^14]: Topothek (ICARUS): ok. 450 gmin, ponad 2 mln wpisów, ponad 3 000 wolontariuszy; prawa do materiałów pozostają u właścicieli; topothek.at.
@@ -202,8 +220,8 @@ Nie chodzi o to, żeby jedno zasłaniało drugie. Chodzi o to, żeby jedno drugi
 
 Poniższe pozycje wymagają potwierdzenia przed drukiem lub publikacją — zaznaczone też przy odpowiednich przypisach:
 
-1. Nazwa ulicy, przy której stoją pomnik i krzyż upamiętniające Marsz Śmierci (w tekście: ulica Michalskiego — do potwierdzenia).
-2. Dokładna data i przebieg pierwszego Marszu Pamięci przez Żory (w tekście: luty 2025 r.).
+1. ~~Nazwa ulicy przy pomniku i krzyżu~~ — UZUPEŁNIONE: ul. Ofiar Oświęcimskich (pomnik i krzyż), ul. Rybnicka 2A (dworzec), ul. Michalskiego 4a (tablica).
+2. ~~Data pierwszego Marszu Pamięci przez Żory~~ — UZUPEŁNIONE: 25–26 stycznia 2025 r., trasa Pszczyna – Żory – Wodzisław Śląski.
 3. Link do podcastu o tematyce Marszu Śmierci (Spotify) — do podania w materiałach towarzyszących.
 4. Czy w Wodzisławiu na pewno nie ma jeszcze kamieni pamięci — potwierdzić u lokalnych historyków lub w urzędzie miasta.
 5. Kontakt do organizacji fundującej kamienie pamięci i aktualny koszt jednego kamienia (w tekście: ok. 120 euro).

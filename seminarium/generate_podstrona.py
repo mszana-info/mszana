@@ -38,15 +38,16 @@ TRESC = """
       <p class="art-lead">
         W styczniu 1945 roku przez Wodzisław Śląski przeszła kolumna więźniów ewakuowanych
         z Auschwitz. Dziś upamiętniają ją w mieście trzy osobne punkty: tablica przy ulicy
-        Michalskiego, miejsce pamięci na dworcu oraz pomnik i krzyż przy ulicy
-        <em>[nazwa do uzupełnienia]</em>. Można z nich zrobić coś więcej niż zbiór miejsc
-        pamięci — jedną trasę, którą się przechodzi, słuchając głosów mieszkańców.
+        Michalskiego, miejsce pamięci na dworcu kolejowym oraz pomnik ofiar i krzyż przy ulicy
+        Ofiar Oświęcimskich. Można z nich zrobić coś więcej niż zbiór miejsc pamięci — jedną
+        trasę, którą się przechodzi, słuchając głosów mieszkańców.
       </p>
 
       <div class="spis" aria-label="Spis treści">
         <h2>W tym artykule</h2>
         <ol>
           <li><a href="#historia">Historia, którą widziała siedmioletnia dziewczynka</a></li>
+          <li><a href="#mszana">Mszana — nasza mogiła, nasza pamięć</a></li>
           <li><a href="#gablota">Od gabloty do dialogu</a></li>
           <li><a href="#praktyka">Muzeum partycypacyjne w praktyce</a></li>
           <li><a href="#dostep">Dostęp jest prawem, nie przywilejem</a></li>
@@ -65,10 +66,17 @@ TRESC = """
 
       <h2 id="historia">1. Historia, którą widziała siedmioletnia dziewczynka</h2>
       <p>
-        W lutym 2025 roku, podczas pierwszego Marszu Pamięci prowadzącego trasą przez Żory,
+        W styczniu 2025 roku, podczas pierwszego Marszu Pamięci prowadzącego trasą przez Żory,
         przed jednym z domów w Świerklanach stanęła starsza kobieta. Powiedziała przez łzy:
         „Miałam siedem lat wtedy i wszystko widziałam — tych więźniów to było straszne,
         wszystko widziałam…”.
+      </p>
+      <p>
+        Była to trasa Pszczyna – Żory – Wodzisław Śląski, przebyta po raz pierwszy 25 i 26 stycznia
+        2025 roku z inicjatywy żorzanina Tomasza Przybylskiego. W Świerklanach, przy cmentarzu
+        parafialnym, leży trzynaścioro więźniów zamordowanych 18 stycznia 1945 roku — tych, którzy
+        nie mogli iść dalej; miejscowa ludność pochowała ich na cmentarzu, a w 1948 roku
+        ufundowała pomnik.
       </p>
       <p>
         Muzeum może mieć dokumenty. Ta pani miała historię. I właśnie dlatego cała ta opowieść
@@ -81,7 +89,35 @@ TRESC = """
         Nie mamy pięćdziesięciu lat. Mamy pięć. Może dziesięć.
       </p>
 
-      <h2 id="gablota">2. Od gabloty do dialogu</h2>
+      <h2 id="mszana">2. Mszana — nasza mogiła, nasza pamięć</h2>
+      <p>
+        Ta droga nie kończy się gdzieś daleko. Przechodzi przez naszą gminę.
+      </p>
+      <p>
+        Na cmentarzu parafialnym w Mszanie, przy kościele świętego Jerzego, znajduje się
+        <strong>Grób Ofiar Marszu Śmierci</strong>. Spoczywają w nim <strong>33 ofiary</strong>
+        — ci, którzy nie przeżyli pieszej wędrówki na mrozie, i ci, którzy zginęli już na terenie
+        naszej wsi. Ciała złożyli mieszkańcy Mszany — i to mieszkańcy dbają o ten grób do dzisiaj.
+      </p>
+      <p>
+        W 1965 roku, z okazji dwudziestej rocznicy wyzwolenia, społeczeństwo ufundowało nad
+        bezimienną mogiłą pomnik — z własnych pieniędzy. A w 2011 roku pracownicy Ministerstwa
+        Edukacji w Izraelu, z pomocą archiwistów Muzeum w Oświęcimiu i Instytutu Yad Vashem
+        w Jerozolimie, po numerach obozowych ustalili nazwiska <strong>czworga</strong> z nich.
+        Na grobie odsłonięto nowe tablice, a przyjechała trzydziestoosobowa delegacja z Izraela —
+        potomkowie polskich Żydów, władze gminy, mieszkańcy.
+      </p>
+      <p>
+        W przedsionku mszańskiego kościoła strona izraelska ufundowała jeszcze jedną tablicę:
+        wyraz wdzięczności obywateli Izraela dla mieszkańców Mszany, którzy w styczniu 1945 roku
+        ratowali innych, narażając własne życie. Od 2011 roku Grób Ofiar Marszu Śmierci w Mszanie
+        jest stałym punktem wycieczek z Izraela.
+      </p>
+      <blockquote>
+        <p>Pamięć nie jest abstrakcją. Pamięć ma adres: cmentarz przy świętym Jerzym w Mszanie.</p>
+      </blockquote>
+
+      <h2 id="gablota">3. Od gabloty do dialogu</h2>
       <p>
         Jeszcze pół wieku temu muzeum kojarzyło się z ciszą, dystansem i kontemplacją —
         przestrzenią, w której eksponat chroniony gablotą i czerwonym sznurem oddzielał widza
@@ -107,7 +143,7 @@ TRESC = """
         które się współtworzy.
       </p>
 
-      <h2 id="praktyka">3. Muzeum partycypacyjne w praktyce</h2>
+      <h2 id="praktyka">4. Muzeum partycypacyjne w praktyce</h2>
       <p>
         Sztuka partycypacyjna i sztuka <em>site-specific</em> to dziś stała praktyka. Wystawy
         powstają wspólnie z mieszkańcami — przez konsultacje i wspólne wybieranie tematów.
@@ -129,7 +165,7 @@ TRESC = """
       </p>
       <p>To nie są pojedyncze gesty. To metoda.</p>
 
-      <h2 id="dostep">4. Dostęp jest prawem, nie przywilejem</h2>
+      <h2 id="dostep">5. Dostęp jest prawem, nie przywilejem</h2>
       <p>
         Jest jeszcze poziom wojewódzki — bo do niezainteresowanych nie dotrzemy sami,
         jednym budynkiem. We Francji każdy młody człowiek dostaje w aplikacji bon na kulturę,
@@ -148,7 +184,7 @@ TRESC = """
         <p>Nie namawiamy. Nie przekonujemy. Otwieramy drzwi — i patrzymy, kto wejdzie.</p>
       </blockquote>
 
-      <h2 id="ekomuzeum">5. Eko-muzeum: muzeum rozproszone</h2>
+      <h2 id="ekomuzeum">6. Eko-muzeum: muzeum rozproszone</h2>
       <p>
         Kolejny model to <strong>eko-muzeum</strong>, czyli muzeum rozproszone. Ma potencjał
         terytorialny: zamiast jednego budynku obejmuje całe miasto i jego okolice. Punktami
@@ -165,13 +201,15 @@ TRESC = """
         <strong>Sztuka może wyjść z sal na ulicę.</strong>
       </p>
 
-      <h2 id="droga">6. Droga Loslau: trasa, którą się przechodzi</h2>
+      <h2 id="droga">7. Droga Loslau: trasa, którą się przechodzi</h2>
       <p>
         Przez Wodzisław Śląski przechodzi niewidzialna ścieżka. Prowadzi od granic miasta,
         przez konkretne ulice, aż do dworca. Jej przebieg odtworzył wodzisławski historyk
-        Piotr Hojka, a od 2012 roku idzie nią co stycznia Marsz Pamięci. Dziś upamiętniają ją
-        trzy osobne punkty: tablica przy ulicy Michalskiego, miejsce pamięci na dworcu,
-        pomnik i krzyż.
+        Piotr Hojka; od 2012 roku — od próby przejścia trasy przez piętnastoosobową grupę
+        mieszkańców, zainicjowanej przez śp. Jana Stolarza — idzie nią co stycznia Marsz Pamięci. Dziś upamiętniają ją
+        trzy osobne punkty: tablica przy ulicy Michalskiego, tablica na dworcu kolejowym przy
+        ulicy Rybnickiej oraz pomnik ofiar i krzyż przy ulicy Ofiar Oświęcimskich — na Piaskowej
+        Górze, gdzie grobem ofiar stał się dół dawnej piaskowni.
       </p>
       <p>Te trzy punkty można połączyć. W jedną trasę. W jedno żywe eko-muzeum pod otwartym niebem:</p>
       <ul>
@@ -204,7 +242,7 @@ TRESC = """
         <p>To byłoby muzeum, przez które się przechodzi. Dosłownie.</p>
       </blockquote>
 
-      <h2 id="kamienie">7. Kamienie pamięci i Ogród Sprawiedliwych</h2>
+      <h2 id="kamienie">8. Kamienie pamięci i Ogród Sprawiedliwych</h2>
       <p>
         W 1992 roku niemiecki artysta Gunter Demnig wmurował w bruk Kolonii pierwszą betonową
         kostkę z mosiężną tabliczką — z imieniem, datą i miejscem śmierci. Dziś takich kamieni
@@ -229,7 +267,7 @@ TRESC = """
         <p>Kamienie — dla tych, którzy szli. Drzewa — dla tych, którzy nie odwrócili wzroku.</p>
       </blockquote>
 
-      <h2 id="archiwum">8. Archiwum Pamięci: najcenniejsze eksponaty leżą w szufladach</h2>
+      <h2 id="archiwum">9. Archiwum Pamięci: najcenniejsze eksponaty leżą w szufladach</h2>
       <p>
         Każdy mieszkaniec może przynieść coś, co ma znaczenie: nagrane wspomnienie, zeskanowaną
         fotografię albo przedmiot z historią. Wychodzi z poczuciem, że jego życie stało się
@@ -251,7 +289,7 @@ TRESC = """
         a wartość zbioru rośnie z każdym opisem dodanym przez ludzi, którzy pamiętają szczegóły.
       </p>
 
-      <h2 id="sztuka">9. Sztuka i technologie w przestrzeni miasta</h2>
+      <h2 id="sztuka">10. Sztuka i technologie w przestrzeni miasta</h2>
       <p>
         Street art i sztuka publiczna mogą być przedłużeniem muzeum w tkance miasta. Sztuka nie
         musi czekać w salach. Może mieszkać tam, gdzie toczy się życie. Wyobraźmy sobie:
@@ -284,7 +322,7 @@ TRESC = """
         przechodzącą kolumnę — i ulica, którą dotąd mijaliśmy obojętnie, zaczyna mówić.
       </p>
 
-      <h2 id="ludzie">10. Ludzie: tandemy pokoleń</h2>
+      <h2 id="ludzie">11. Ludzie: tandemy pokoleń</h2>
       <p>
         W tym wszystkim najważniejsi są ludzie: wolontariusze dziedzictwa, seniorzy, którzy
         zostają przewodnikami po własnych wspomnieniach, i młodzi, którzy potrafią je zapisać
@@ -304,7 +342,7 @@ TRESC = """
         <p>Dziedzictwo przekazuje się między ludźmi albo nie przekazuje się wcale.</p>
       </blockquote>
 
-      <h2 id="nauczyciel">11. Nauczyciel doceniony nie odpuszcza</h2>
+      <h2 id="nauczyciel">12. Nauczyciel doceniony nie odpuszcza</h2>
       <p>
         Żadna młodzież nie pokocha historii, jeśli nie poprowadzi jej ktoś, kto sam czuje,
         że ta praca ma sens i prestiż. Dlatego potrzebne są konkursy, które nagradzają nie tylko
@@ -324,7 +362,7 @@ TRESC = """
         odpuszcza.</strong>
       </p>
 
-      <h2 id="piec">12. Pięć kroków i brakujące podpisy</h2>
+      <h2 id="piec">13. Pięć kroków i brakujące podpisy</h2>
       <ol>
         <li><strong>Zapisać wspomnienia.</strong> Dopóki jeszcze są.</li>
         <li><strong>Współdecydować z mieszkańcami.</strong> Nie konsultować — współdecydować.</li>
@@ -346,7 +384,7 @@ TRESC = """
       </p>
       <p><strong>Taki plan jest już napisany. Brakuje podpisów.</strong></p>
 
-      <h2 id="palac">13. Ten pałac powstał z miłości</h2>
+      <h2 id="palac">14. Ten pałac powstał z miłości</h2>
       <p>
         Pałac przeszedł już pierwszy, kluczowy etap przemiany: z zaniedbanego budynku
         administracyjnego stał się nowoczesną, dostępną przestrzenią kultury. Teraz czas,
@@ -372,7 +410,7 @@ TRESC = """
         <p>Niech ten pałac nadal będzie miejscem relacji.</p>
       </blockquote>
 
-      <h2 id="zrodla">14. Źródła i materiały</h2>
+      <h2 id="zrodla">15. Źródła i materiały</h2>
       <div class="card soft">
         <ul class="zrodla">
           <li>
@@ -381,7 +419,16 @@ TRESC = """
           </li>
           <li>
             <strong>Droga Loslau:</strong> P. Hojka, <em>Kierunek Loslau</em>, Muzeum
-            w Wodzisławiu Śląskim.
+            w Wodzisławiu Śląskim. Miejsca pamięci: ul. Michalskiego 4a, dworzec kolejowy
+            (ul. Rybnicka 2A), pomnik i krzyż przy ul. Ofiar Oświęcimskich (Starostwo Powiatowe
+            w Wodzisławiu Śląskim; wykaz PTTK „Szlakiem Ewakuacji Więźniów KL Auschwitz”).
+            Pierwszy Marsz Pamięci przez Żory: 25–26 stycznia 2025 r.
+          </li>
+          <li>
+            <strong>Mszana:</strong> Grób Ofiar Marszu Śmierci na cmentarzu parafialnym przy
+            kościele św. Jerzego — 33 ofiary; pomnik z 1965 r.; tablice z nazwiskami czworga
+            ofiar (2011 r.) i tablica wdzięczności w przedsionku kościoła
+            (Urząd Gminy Mszana, „Miejsca pamięci”).
           </li>
           <li>
             <strong>Kamienie pamięci:</strong> projekt Guntera Demniga (stolpersteine.eu) —
@@ -409,9 +456,8 @@ TRESC = """
         </ul>
         <p class="zrodla" style="margin-bottom:0">
           <small>
-            Uwaga redakcyjna: przed publikacją należy potwierdzić nazwę ulicy przy pomniku
-            i krzyżu, dokładną datę pierwszego Marszu Pamięci przez Żory, aktualne terminy
-            konkursów dla nauczycieli oraz wybrane dane liczbowe. Szczegółowa lista
+            Uwaga redakcyjna: przed publikacją należy potwierdzić aktualne terminy konkursów
+            dla nauczycieli oraz wybrane dane liczbowe. Szczegółowa lista
             <a href="seminarium/artykul-muzeum-bez-scian.pdf">w wersji PDF artykułu</a>
             (rozdział „Do sprawdzenia przed publikacją”).
           </small>
@@ -423,7 +469,8 @@ TRESC = """
           Tekst powstał na podstawie wystąpienia seminaryjnego „Muzeum bez ścian. Dziedzictwo
           mieszka w ludziach”. Wersje do pobrania:
           <a href="seminarium/artykul-muzeum-bez-scian.pdf">artykuł (PDF)</a> ·
-          <a href="seminarium/prezentacja-muzeum-bez-scian.pdf">prezentacja (PDF)</a>.
+          <a href="seminarium/prezentacja-muzeum-bez-scian.pdf">prezentacja (PDF)</a> ·
+          <a href="seminarium/przemowienie-muzeum-bez-scian.pdf">przemówienie (PDF)</a>.
         </small>
       </p>
     </article>

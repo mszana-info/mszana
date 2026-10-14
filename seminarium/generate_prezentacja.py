@@ -105,7 +105,7 @@ SLAJDY = [
     },
     {
         "layout": "content",
-        "eyebrow": "2. TEORIA, KTÓRA ZMIENIŁA PRAKTYKĘ",
+        "eyebrow": "2. NOWA MUZEOLOGIA",
         "title": "Nowa muzeologia → muzeum partycypacyjne",
         "bullets": [
             "Punkt zwrotny: ruch „nowej muzeologii” i wyrastająca z niego koncepcja muzeum partycypacyjnego.",
@@ -122,21 +122,39 @@ SLAJDY = [
         "eyebrow": "3. DOWÓD Z BLISKA",
         "title": "Świerklany: historia, która może odejść",
         "bullets": [
-            "Podczas pierwszego Marszu Pamięci, który przeszedł trasą przez Żory (2025), wyszła przed dom starsza pani.",
+            "25–26 stycznia 2025 r., pierwszy Marsz Pamięci trasą Pszczyna – Żory – Wodzisław (inicjatywa Tomasza Przybylskiego). Podczas przejścia przez Świerklany wyszła przed dom starsza pani.",
             "Ze łzami w oczach: „Miałam siedem lat wtedy i wszystko widziałam — tych więźniów to było straszne, wszystko widziałam…”.",
+            "W Świerklanach przy cmentarzu parafialnym leży 13 więźniów zamordowanych 18 stycznia 1945 r.; mieszkańcy pochowali ich i w 1948 r. ufundowali pomnik."
+            ,
             "Muzeum może mieć dokumenty. Ta pani miała historię.",
         ],
         "quote": "Muzeum partycypacyjne nie jest modą. Jest obowiązkiem.",
         "notes": (
             "Moment emocjonalny — nie przyspieszać. Cytat starszej pani przytoczyć z pamięci, "
             "nie czytać z kartki.\n"
-            "DO POTWIERDZENIA przed wygłoszeniem: dokładna data i przebieg pierwszego Marszu "
-            "Pamięci przez Żory (w tekście: 2025 r.)."
+            "Data i trasa potwierdzone: 25–26 stycznia 2025 r. (Pszczyna – Żory – Wodzisław), "
+            "inicjatywa Tomasza Przybylskiego."
         ),
     },
     {
         "layout": "content",
-        "eyebrow": "4. PRAKTYKA",
+        "eyebrow": "5. MIEJSCE, KTÓRE JEST NASZE",
+        "title": "Mszana — nasza mogiła, nasza pamięć",
+        "bullets": [
+            "Na cmentarzu parafialnym przy kościele św. Jerzego: Grób Ofiar Marszu Śmierci — 33 ofiary, ciała złożyli mieszkańcy Mszany.",
+            "1965 r.: społeczeństwo z własnych funduszy ufundowało pomnik nad bezimienną mogiłą.",
+            "2011 r.: archiwiści Yad Vashem i Muzeum Auschwitz-Birkenau ustalili po numerach obozowych nazwiska czworga ofiar; odsłonięto nowe tablice, przyjechała 30-osobowa delegacja z Izraela.",
+            "W przedsionku kościoła tablica wdzięczności dla mieszkańców Mszany, którzy w styczniu 1945 r. ratowali innych. Od 2011 r. grób jest stałym punktem wycieczek z Izraela.",
+        ],
+        "quote": "Pamięć nie jest abstrakcją. Pamięć ma adres: cmentarz przy św. Jerzym w Mszanie.",
+        "notes": (
+            "Najmocniejszy akcent lokalny całego wystąpienia — mówimy spokojnie, z pauzami. "
+            "Po ostatnim zdaniu (na slajdzie) zostawić ciszę."
+        ),
+    },
+    {
+        "layout": "content",
+        "eyebrow": "5. PRAKTYKA",
         "title": "Z odbiorców — we współgospodarzy",
         "bullets": [
             "Sztuka partycypacyjna i site-specific to dziś stała praktyka wystawiennicza.",
@@ -148,7 +166,7 @@ SLAJDY = [
     },
     {
         "layout": "content",
-        "eyebrow": "5. DOSTĘP",
+        "eyebrow": "6. DOSTĘP",
         "title": "Kultura jako prawo, nie przywilej",
         "bullets": [
             "Francja, Włochy, Hiszpania: bon kulturowy w aplikacji dla każdego młodego człowieka.",
@@ -164,7 +182,7 @@ SLAJDY = [
     },
     {
         "layout": "content",
-        "eyebrow": "6. MUZEUM BEZ ŚCIAN (1)",
+        "eyebrow": "7. MUZEUM BEZ ŚCIAN (1)",
         "title": "Eko-muzeum, czyli muzeum rozproszone",
         "bullets": [
             "Zamiast jednego budynku — całe miasto i jego okolice jako sieć punktów.",
@@ -181,24 +199,25 @@ SLAJDY = [
     },
     {
         "layout": "content",
-        "eyebrow": "7. MUZEUM BEZ ŚCIAN (2)",
+        "eyebrow": "8. MUZEUM BEZ ŚCIAN (2)",
         "title": "Droga Loslau: trasa, którą się przechodzi",
         "bullets": [
             "Niewidzialna ścieżka przez Wodzisław: od granic miasta, przez konkretne ulice, aż do dworca.",
-            "Dziś trzy punkty: tablica przy ulicy Michalskiego, miejsce pamięci na dworcu, pomnik i krzyż przy ulicy.",
+            "Dziś trzy punkty: tablica przy ul. Michalskiego 4a, tablica na dworcu kolejowym (ul. Rybnicka 2A), pomnik ofiar i krzyż przy ul. Ofiar Oświęcimskich.",
             "Do zbudowania: jedna trasa — audioprzewodnik w głosach mieszkańców, kody QR otwierające archiwalne zdjęcia w miejscu zdarzenia, stacje na 10 minut.",
             "Przebieg trasy odtworzył wodzisławski historyk Piotr Hojka; od 2012 roku idzie nią co stycznia Marsz Pamięci.",
         ],
         "quote": "Brakuje jednego — żeby ta droga istniała także wtedy, gdy nikt nią nie idzie.",
         "notes": (
-            "DO UZUPEŁNIENIA: nazwa ulicy, przy której stoją pomnik i krzyż.\n"
+            "Adresy potwierdzone: ul. Michalskiego 4a (tablica), dworzec kolejowy ul. Rybnicka 2A, "
+            "pomnik i krzyż przy ul. Ofiar Oświęcimskich.\n"
             "Mieć pod ręką link do podcastu na Spotify na wypadek pytania z sali.\n"
             "Egzemplarz książki „Kierunek Loslau” do wglądu przy ustalaniu przebiegu ulic."
         ),
     },
     {
         "layout": "content",
-        "eyebrow": "8. WZORZEC",
+        "eyebrow": "9. WZORZEC",
         "title": "Bawaria: droga, która istnieje zawsze",
         "bullets": [
             "Wzdłuż trasy marszu z Dachau stanęły 22 identyczne pomniki autorstwa Huberta von Pilgrima (jedna kopia w Yad Vashem w Jerozolimie).",
@@ -213,7 +232,7 @@ SLAJDY = [
     },
     {
         "layout": "content",
-        "eyebrow": "9. FORMAT MAKSYMALNIE PARTYCYPACYJNY",
+        "eyebrow": "10. FORMAT MAKSYMALNIE PARTYCYPACYJNY",
         "title": "Kamienie pamięci",
         "bullets": [
             "1992 r., Kolonia: Gunter Demnig wmurowuje pierwszą kostkę z mosiężną tabliczką — imię, data, miejsce śmierci.",
@@ -232,7 +251,7 @@ SLAJDY = [
     },
     {
         "layout": "content",
-        "eyebrow": "10. DRUGA STRONA PAMIĘCI",
+        "eyebrow": "11. DRUGA STRONA PAMIĘCI",
         "title": "Ogród Sprawiedliwych",
         "bullets": [
             "Pierwszy ogród: Mediolan, 2003 r. Warszawski rośnie od 2014 r. — drzewo dla każdego, kto ratował innych.",
@@ -246,7 +265,7 @@ SLAJDY = [
     },
     {
         "layout": "content",
-        "eyebrow": "11. INSTYTUCJA",
+        "eyebrow": "12. INSTYTUCJA",
         "title": "Archiwum Pamięci Wodzisławia",
         "bullets": [
             "Każdy mieszkaniec przynosi coś, co ma znaczenie: nagrane wspomnienie, zeskanowaną fotografię, przedmiot z historią.",
@@ -258,7 +277,7 @@ SLAJDY = [
     },
     {
         "layout": "content",
-        "eyebrow": "12. SZTUKA",
+        "eyebrow": "13. SZTUKA",
         "title": "Sztuka w przestrzeni miasta",
         "bullets": [
             "Mural złożony z archiwalnych zdjęć; ścieżka pamięci łącząca pałac z rynkiem.",
@@ -272,7 +291,7 @@ SLAJDY = [
     },
     {
         "layout": "content",
-        "eyebrow": "13. TECHNOLOGIE",
+        "eyebrow": "14. TECHNOLOGIE",
         "title": "Historia w kieszeni",
         "bullets": [
             "Aplikacja AR odtwarzająca wygląd pałacu z XVIII wieku i rynek sprzed stu dwudziestu lat.",
@@ -290,7 +309,7 @@ SLAJDY = [
     },
     {
         "layout": "content",
-        "eyebrow": "14. LUDZIE",
+        "eyebrow": "15. LUDZIE",
         "title": "Tandemy pokoleń",
         "bullets": [
             "Wolontariusze dziedzictwa; seniorzy jako przewodnicy po własnych wspomnieniach.",
@@ -307,7 +326,7 @@ SLAJDY = [
     },
     {
         "layout": "big",
-        "eyebrow": "15. POWRÓT DO PUNKTU WYJŚCIA",
+        "eyebrow": "16. POWRÓT DO PUNKTU WYJŚCIA",
         "title": "Ten pałac powstał z miłości.",
         "subtitle": (
             "A w styczniu 1945 roku, tuż obok, przechodziła kolumna,\n"
@@ -340,7 +359,7 @@ SLAJDY = [
     },
     {
         "layout": "content",
-        "eyebrow": "16. NAUCZYCIELE",
+        "eyebrow": "17. NAUCZYCIELE",
         "title": "Nauczyciel doceniony nie odpuszcza",
         "bullets": [
             "Nagroda im. Ireny Sendlerowej „Za naprawianie świata” (od 2006 r.) — dla nauczycieli uczących tolerancji i szacunku; nagroda pieniężna dla laureata.",
@@ -357,7 +376,7 @@ SLAJDY = [
     },
     {
         "layout": "content",
-        "eyebrow": "17. PLAN",
+        "eyebrow": "18. PLAN",
         "title": "Pięć kroków",
         "bullets": [
             "1. Zapisać wspomnienia. Dopóki jeszcze są.",
@@ -433,7 +452,9 @@ def zbuduj_pptx(sciezka):
     def pasek(slide, tekst, kolor_tla=GREEN, kolor_tekstu=WHITE, rozmiar=13, wys=0.55, gora=0.55):
         if not tekst:
             return
-        ksztalt = slide.shapes.add_shape(1, Inches(0.7), Inches(gora), Inches(2.2), Inches(wys))
+        # szerokość plakietki zależna od długości tekstu (max 6,2 cala)
+        szer = min(6.2, max(2.0, 0.096 * len(tekst) + 0.55))
+        ksztalt = slide.shapes.add_shape(1, Inches(0.7), Inches(gora), Inches(szer), Inches(wys))
         ksztalt.fill.solid()
         ksztalt.fill.fore_color.rgb = kolor_tla
         ksztalt.line.fill.background()
@@ -560,11 +581,14 @@ def zbuduj_pdf(sciezka):
 
         # pasek nagłówka
         if s.get("eyebrow") and layout != "title":
+            etykieta = s["eyebrow"]
+            szer_txt = pdfmetrics.stringWidth(etykieta, "PL-Bold", 11)
+            szer = min(6.2 * inch, szer_txt + 22)
             c.setFillColor(ziel_l if layout == "poem" else ziel)
-            c.rect(0.7 * inch, SH - 1.15 * inch, 2.4 * inch, 0.42 * inch, stroke=0, fill=1)
+            c.rect(0.7 * inch, SH - 1.15 * inch, szer, 0.42 * inch, stroke=0, fill=1)
             c.setFillColor(ziel if layout == "poem" else white)
             c.setFont("PL-Bold", 11)
-            c.drawCentredString(1.9 * inch, SH - 1.03 * inch, s["eyebrow"])
+            c.drawCentredString(0.7 * inch + szer / 2.0, SH - 1.03 * inch, etykieta)
 
         if layout == "title":
             y = SH - 2.4 * inch
