@@ -142,6 +142,48 @@ Podpowiedzi do wklejenia w komentarzu (dla osób, które nie wiedzą, od czego z
 
 ---
 
+## Odpowiedź autorki — „rozumienie ludzi" (w wersji do publikacji)
+
+Odpowiedź w pierwszej osobie, do wklejenia jako komentarz pod postem albo jako osobny wpis.
+
+### Opcja 1 — komentarz (krótko, naturalnie)
+
+Moja super moc na jeden dzień: **rozumienie ludzi**. A dokładniej — żeby mąż wreszcie zrozumiał mnie, żonę.
+Jedno zdanie, jedno spojrzenie bez pytania „o co ci chodzi" i wreszcie to uczucie, że ktoś naprawdę słucha.
+Reszta super mocy w tym dniu może sobie poczekać. 😉
+
+### Opcja 2 — komentarz (bardzo krótko)
+
+Rozumienie ludzi. A dokładniej: żeby mąż rozumiał mnie — żonę. Bez tłumaczenia się w setki różnych sposobów.
+Chyba sama siebie lepiej rozumiałam. 😄
+
+### Opcja 3 — osobny, refleksyjny wpis
+
+**Moja super moc na jeden dzień?**
+Rozumienie ludzi.
+
+A dokładniej — żeby mąż rozumiał mnie, żonę. Nie „wiedział, o co chodzi", nie „domyślił się", tylko rozumiał.
+Tak, żebym nie musiała za każdym razem tłumaczyć się w dziesięciu wariantach, bo to zawsze jest w tym samym
+miejscu — tylko w innym języku.
+
+I chyba najtrudniejsze z tego wszystkiego: żeby to było coś, co po prostu jest. Bez magii, bez cudu.
+Tylko obecność, uważność i jedno pytanie, na które naprawdę chce się odpowiedzieć.
+
+A gdyby to się udało — to chyba byłby najlepszy dzień w moim życiu. Bez super mocy. 😌
+
+### Opcja 4 — wplecione w post główny (wariant A)
+
+W głównym wpisie, tuż przed wezwaniem do odpowiedzi, jedno zdanie:
+
+> *A nasza odpowiedź? Prosta: **rozumienie ludzi** — a dokładniej: żeby mąż rozumiał mnie, żonę.*
+> *Bo gdyby to się udało, reszta super mocy nie byłaby już potrzebna.*
+
+### Uwaga prywatności
+Wpis o rodzinie to sprawa osobista — jeśli ma iść na grupę, warto zdecydować, czy wskazywać na bliskich
+imiennie czy nie (zachowujemy ogólną formę: „mąż", „żona"). Zdjęcia i szczegóły tylko za zgodą.
+
+---
+
 ## Notatka redakcyjna
 
 - Post przechodzi akceptację administracji (regulamin grupy).
