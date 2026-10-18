@@ -1,12 +1,76 @@
 # Post na grupę FB „Mszana.info" — 18.10.2026
 
 **Temat:** Jaka super moc chciałabyś mieć choć jeden dzień?
-**Klimat:** kreatywny, lekki, bez odsyłania na stronę mszana.info
+**Klimat:** kreatywny, długi, bez odsyłania na stronę mszana.info
 **Uwaga:** posty w grupie przechodzą akceptację administracji; w treści nie ma danych osobowych ani polityki.
 
 ---
 
-## Wariant 1 — post główny (rekomendowany)
+## Wariant A — DŁUGA, KREATYWNA WERSJA (rekomendowana)
+
+🌟 **JAKĄ SUPER MOC CHCIAŁABYŚ MIEĆ CHOĆ JEDEN DZIEŃ?**
+
+Niech to będzie pytanie bez poprawnej odpowiedzi.
+
+Zamknij na chwilę oczy. Jest piątek, 21:40. W domu pachnie kolacją, telefon leży odwrócony do góry, a za oknem
+jest już ciemno. Wszystko, co trzeba zrobić jutro, może poczekać do jutra. Jutro sobą jest.
+
+I wtedy — pst! — zdarza się ten jeden dzień.
+Taki, w którym masz dokładnie **jedną** super moc. Jedną. Nie dziesięć, nie połowę, nie „zależy od sytuacji".
+Jedną — i cały ten dzień należy do Ciebie.
+
+**Którą?**
+
+Możliwości jest mnóstwo, więc na początek kilka, które mogą podpowiedzieć natchnienie:
+
+⏳ **Zatrzymywanie czasu.** Nie tak, że staniesz się kamieniem na skrzyżowaniu, tylko tak, że ten jeden dzień
+wreszcie ci się nie skończy, zanim zrobisz to, co naprawdę ważne. Rozmowę z mamą. Naprawienie roweru.
+Sprawdzenie, czy w domu jest jeszcze cukier.
+
+🔮 **Wiedzieć, co się wydarzy.** Nie cały życiorys przyszłości, tylko jedno, konkretne zdanie: „tak, warto".
+I wtedy reszta tego dnia idzie już spokojnie, po kolei, bez zgadywania.
+
+👂 **Rozumienie ludzi.** Ten jeden dzień, w którym każde zdanie, które ktoś do Ciebie mówi, zrozumiesz do końca —
+także to, którego nie mówi wprost. Ty i tak wiesz, o co chodzi, ale on nie musi się tłumaczyć.
+
+🗣️ **Zamienić słowa w most.** Słowo, które normalnie zostaje w powietrzu, u Ciebie ląduje po drugiej stronie —
+u sąsiada, u dziecka, u kogoś, z kim od miesięcy nie rozmawiałeś.
+
+💪 **Siła.** Stara, prosta, bez gadżetów. Podniesiesz coś, czego inni nie podniosą. I nawet się tym nie pochwalisz,
+bo przecież nie o to chodzi.
+
+🌱 **Zaczynanie od nowa.** Jeden dzień, w którym wszystko, co się nie udało, po prostu się nie wydarzyło.
+
+🌙 **Sen, w którym wszystko jest możliwe** — i budzisz się, i naprawdę tak było.
+
+A jest jeszcze jedna. Najzwyklejsza, a mimo to najtrudniejsza:
+📌 **Sąsiedztwo.** Zobaczyć, że ktoś potrzebuje pomocy. Naprawdę zobaczyć — nie zauważyć, tylko zobaczyć.
+I po prostu pomóc: w czwartek o siódmej rano, w deszczu, bez pytania „czy mogę to kiedyś odwzajemnić".
+
+Bo ta super moc działa u nas non stop i nie wymaga żadnej magii. Codziennie — w Połomii, w Gogołowej, w Mszanie.
+Tylko nikt nie nazywa jej super mocą, bo trudno nazwać super mocą coś, co po prostu… robi się.
+
+---
+
+No i teraz Twoja kolej.
+
+Napisz w komentarzu **jednym zdaniem**:
+*„Moja super moc na jeden dzień to…”*
+
+A jeśli masz dwie — to ta druga zawsze jest ta, którą wybierasz w prawdziwym życiu. Zawsze. 😄
+
+A może chcesz odpowiedzieć ostrzej — na pytanie, którą super moc przydałaby się **naprawdę**:
+w Mszanie, w Połomii, w Gogołowej, w domu, w pracy, w rodzinie?
+Wtedy napisz to wprost — jedno zdanie, bez lania wody. Odpowiedzi zostają tutaj, w grupie, a kilka z nich
+zbierzemy w osobny wpis podsumowujący. 🙌
+
+Piszemy kulturalnie, bez hejtu — jak zawsze.
+
+#Mszana #Połomia #Gogołowa #GminaMszana #Sąsiedzi
+
+---
+
+## Wariant B — średnia (krótsza wersja główna)
 
 🌟 **JAKĄ SUPER MOC CHCIAŁABYŚ MIEĆ CHOĆ JEDEN DZIEŃ?**
 
@@ -34,7 +98,7 @@ Piszemy kulturalnie, bez hejtu — jak zawsze. 🙌
 
 ---
 
-## Wariant 2 — krótki (Stories, przypięcie, przypomnienie)
+## Wariant C — krótki (Stories, przypięcie, przypomnienie)
 
 🌟 **JEDEN DZIEŃ. JEDNA SUPER MOC.**
 
@@ -42,7 +106,7 @@ Jaka? Napisz jedno zdanie w komentarzu. 👇
 
 ---
 
-## Wariant 3 — ankieta (osobny post z ankietą)
+## Wariant D — ankieta (osobny post z ankietą)
 
 **Jaka super moc na jeden dzień?**
 Zaznacz jedną ⬇️
@@ -56,7 +120,7 @@ Zaznacz jedną ⬇️
 
 ---
 
-## Wariant 4 — początek cyklu „Pytanie do mieszkańców"
+## Wariant E — początek cyklu „Pytanie do mieszkańców"
 
 📌 **PYTANIE NR 1 — „Jaka super moc chciałabyś mieć choć jeden dzień?"**
 
