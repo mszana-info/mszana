@@ -431,3 +431,154 @@ html.hc .mapa-serce-copy p,html.hc .mapa-serce-list span{color:#fff}
   .mapa-serce-list li,.mapa-serce-list li:first-child,.mapa-serce-list li:last-child{padding:9px 0;border-right:0;border-bottom:1px solid var(--line)}
   .mapa-serce-list li:last-child{border-bottom:0}
 }
+
+/* =========================================================
+   Materiał / Opinia — sekcja "Głos i wartości"
+   ========================================================= */
+.artykul{background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:clamp(22px,3.4vw,38px)}
+.artykul-lead{font-size:1.14rem;line-height:1.62;color:var(--ink);font-weight:600;margin:0 0 1.2em}
+.artykul-meta{
+  display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;margin:0 0 22px;padding:0 0 16px;
+  border-bottom:1px solid var(--line);font-size:.85rem;color:var(--muted);
+}
+.artykul-meta .opinia-badge{
+  display:inline-block;background:var(--amber-100);border:1px solid #f0d9b0;color:#7d4a08;
+  border-radius:999px;padding:3px 11px;font-weight:800;font-size:.76rem;letter-spacing:.04em;text-transform:uppercase;
+}
+.artykul h2{
+  font-size:clamp(1.3rem,2.1vw,1.6rem);margin:2.1em 0 .6em;padding-top:.9em;border-top:2px solid var(--green-700);
+}
+.artykul h3{font-size:1.08rem;margin:1.7em 0 .45em;color:var(--green-800)}
+.artykul > h2:first-of-type{margin-top:.6em;padding-top:0;border-top:0}
+.artykul p,.artykul li{text-align:justify}
+.artykul figure{margin:0 0 26px}
+.artykul figure img{display:block;width:100%;height:auto;border-radius:var(--radius-sm);border:1px solid var(--line)}
+.artykul figcaption{font-size:.8rem;color:var(--muted);margin-top:8px;line-height:1.5}
+.artykul blockquote{
+  margin:1.6em 0;padding:16px 20px;background:var(--green-50);border-left:5px solid var(--green-600);
+  border-radius:0 var(--radius-sm) var(--radius-sm) 0;font-size:1.04rem;color:var(--ink);font-weight:600;
+}
+.artykul blockquote cite{display:block;margin-top:8px;font-size:.84rem;color:var(--muted);font-style:normal;font-weight:600}
+.artykul ul li,.artykul ol li{margin:.45em 0}
+.artykul th,.artykul td{text-align:left}
+.artykul table{min-width:680px}
+.artykul .wytnij{
+  background:var(--amber-100);border:1px solid #f0d9b0;border-left:5px solid var(--amber-500);
+  border-radius:var(--radius-sm);padding:16px 18px;margin:1.6em 0;font-size:1.02rem;color:var(--ink);
+}
+.artykul .wytnij strong{color:#7d4a08}
+.artykul .fakty{
+  background:#f4f6f5;border:1px dashed var(--line);border-radius:var(--radius-sm);
+  padding:16px 18px;margin:1.8em 0;font-size:.94rem;
+}
+.artykul .fakty h3{margin-top:0;font-size:1rem}
+.artykul .fakty ul{margin-bottom:0;padding-left:1.15em}
+.artykul .fakty li{text-align:left}
+.artykul .zrodla{font-size:.9rem;color:var(--muted)}
+.artykul .zrodla a{font-weight:600}
+.artykul .podpis{
+  margin-top:28px;padding-top:16px;border-top:1px solid var(--line);
+  font-size:.92rem;color:var(--body);
+}
+.artykul .podpis strong{color:var(--ink)}
+.artykul .pytania{list-style:none;padding:0;margin:1.2em 0}
+.artykul .pytania li{
+  position:relative;padding-left:2.3em;margin:.6em 0;text-align:left;
+}
+.artykul .pytania li::before{
+  content:"?";position:absolute;left:0;top:.05em;width:1.65em;height:1.65em;border-radius:50%;
+  background:var(--green-700);color:#fff;font-weight:800;display:flex;align-items:center;justify-content:center;font-size:.9em;
+}
+html.hc .artykul{background:#0d0d0d;border-color:#8d8d8d}
+html.hc .artykul-meta{border-color:#8d8d8d}
+html.hc .artykul .opinia-badge{background:#000;border-color:#fff;color:#fff}
+html.hc .artykul h2{border-color:#fff}
+html.hc .artykul h3{color:#fff}
+html.hc .artykul blockquote{background:#12291d;border-color:#fff;color:#fff}
+html.hc .artykul .wytnij{background:#111;border-color:#fff;color:#fff}
+html.hc .artykul .fakty{background:#0d0d0d;border-color:#8d8d8d;color:#f2f2f2}
+html.hc .artykul .fakty h3{color:#fff}
+html.hc .artykul .pytania li::before{background:#fff;color:#000}
+@media print{
+  .artykul{box-shadow:none;border:0;padding:0}
+  .artykul h2{page-break-after:avoid}
+  .artykul figure,.artykul blockquote,.artykul .wytnij{page-break-inside:avoid}
+}
+
+/* =========================================================
+   Artykuł — czytelność: listy, tabele, wyróżnienia
+   ========================================================= */
+.artykul .koszty{list-style:none;padding:0;margin:1em 0}
+.artykul .koszty li{
+  position:relative;padding-left:1.9em;margin:.5em 0;text-align:left;
+}
+.artykul .koszty li::before{
+  content:"";position:absolute;left:.45em;top:.72em;width:.5em;height:.5em;border-radius:50%;
+  background:var(--green-600);
+}
+.artykul .petla{list-style:none;counter-reset:petla;padding:0;margin:1em 0 1.2em}
+.artykul .petla li{
+  position:relative;counter-increment:petla;padding-left:2.4em;margin:.55em 0;text-align:left;
+}
+.artykul .petla li::before{
+  content:counter(petla);position:absolute;left:0;top:.05em;width:1.75em;height:1.75em;border-radius:50%;
+  background:var(--green-700);color:#fff;font-weight:800;display:flex;align-items:center;justify-content:center;font-size:.9em;
+}
+.artykul .tabela-zasad{font-size:.95rem}
+.artykul .tabela-zasad td:first-child{width:38%}
+.artykul .tabela-zasad td{vertical-align:top}
+
+html.hc .artykul .petla li::before{background:#fff;color:#000}
+html.hc .artykul .koszty li::before{background:#fff}
+
+/* =========================================================
+   O nas — wyróżniony blok artykułu ("Głos i wartości")
+   ========================================================= */
+.artykul-teaser{
+  display:grid;grid-template-columns:minmax(280px,.9fr) minmax(0,1.1fr);
+  gap:clamp(22px,3.4vw,46px);align-items:center;
+  margin-top:30px;padding:clamp(20px,2.8vw,32px);
+  background:#fff;border:1px solid var(--line);border-left:5px solid var(--amber-500);
+  border-radius:var(--radius);box-shadow:var(--shadow);
+}
+.artykul-teaser-fig{margin:0;position:relative;display:grid;place-items:center}
+.artykul-teaser-fig::before{
+  content:"";position:absolute;width:84%;aspect-ratio:1;border-radius:50%;
+  background:radial-gradient(circle,rgba(201,130,26,.2),rgba(201,130,26,.03) 66%,transparent 71%);
+}
+.artykul-teaser-fig picture{position:relative;display:block;width:100%}
+.artykul-teaser-fig img{
+  display:block;width:100%;height:auto;border-radius:var(--radius-sm);
+  border:1px solid var(--line);box-shadow:0 8px 20px rgba(11,58,36,.12);
+}
+.artykul-teaser-body{min-width:0}
+.artykul-teaser .eyebrow{
+  color:var(--amber-600);font-weight:800;font-size:.82rem;letter-spacing:.09em;
+  text-transform:uppercase;margin:0 0 6px;
+}
+.artykul-teaser h3{
+  margin:0 0 .45em;font-size:clamp(1.28rem,2.2vw,1.62rem);line-height:1.22;color:var(--ink);
+}
+.artykul-teaser-lead{font-size:1.03rem;margin:0 0 1em;color:var(--body)}
+.artykul-teaser-meta{
+  display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;margin:0 0 1.1em;
+  padding:0 0 14px;border-bottom:1px solid var(--line);font-size:.85rem;color:var(--muted);
+}
+.artykul-teaser-meta .opinia-badge{
+  display:inline-block;background:var(--amber-100);border:1px solid #f0d9b0;color:#7d4a08;
+  border-radius:999px;padding:3px 11px;font-weight:800;font-size:.76rem;
+  letter-spacing:.04em;text-transform:uppercase;
+}
+.artykul-teaser-list{margin:0 0 1.3em;padding-left:1.15em}
+.artykul-teaser-list li{margin:.45em 0;text-align:left;color:var(--body)}
+.artykul-teaser .btn{font-size:.95rem}
+@media (max-width:820px){
+  .artykul-teaser{grid-template-columns:1fr;gap:20px}
+  .artykul-teaser-fig{max-width:420px;margin:0 auto}
+}
+html.hc .artykul-teaser{background:#0d0d0d;border-color:#8d8d8d}
+html.hc .artykul-teaser-meta{border-color:#8d8d8d}
+html.hc .artykul-teaser .opinia-badge{background:#000;border-color:#fff;color:#fff}
+html.hc .artykul-teaser h3{color:#fff}
+html.hc .artykul-teaser .eyebrow{color:#f0c070}
+html.hc .artykul-teaser .btn-primary{background:#fff;color:#000;border-color:#fff}
