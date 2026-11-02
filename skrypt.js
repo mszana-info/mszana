@@ -149,7 +149,7 @@
     });
   }
   handleForm('contactForm', 'Trwa przekazywanie wiadomości…', true);
-  handleForm('correctionForm', 'Dziękujemy! Sprostowanie zostanie przekazane na kontakt@mszana.info i potraktowane priorytetowo zgodnie z Regulaminem.', false);
+  handleForm('correctionForm', 'Dziękujemy! Sprostowanie zostanie przekazane na mszanainfo@wp.pl i potraktowane priorytetowo zgodnie z Regulaminem.', false);
 
   /* ---------- Google Apps Script: formularz i zbiorczy licznik ---------- */
   function appsScriptUrl(){
