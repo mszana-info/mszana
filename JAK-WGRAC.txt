@@ -1,0 +1,85 @@
+MSZANA.INFO — MATERIAŁ: KONSULTACJE O OPŁATY ZA ODPADY, II TURA (STANOWISKO RADNEGO)
+Paczka kompletna, samodzielna: działa na GitHub Pages i offline, bez zasobów zewnętrznych.
+
+------------------------------------------------------------------
+1. CO JEST W PACZCE
+------------------------------------------------------------------
+  index.html                                     strona materiału (to jest podstrona)
+  material-mszana-odpady-tura2-jeden-plik.html   ta sama treść w JEDNYM pliku (CSS + obraz w środku)
+  style.css                                      arkusz portalu mszana.info (1:1)
+  skrypt.js                                      skrypty portalu (1:1)
+  config.js                                      konfiguracja portalu (1:1)
+  assets/protokol-2026-11-16-zrzut.png           zrzut protokołu z II tury (16.11.2026)
+  robots.txt
+  sitemap.xml
+  .nojekyll                                      (plik ukryty — patrz punkt 4)
+  JAK-WGRAC.txt                                  ta instrukcja
+
+------------------------------------------------------------------
+2. WGRANIE NA GITHUB PAGES — KROK PO KROKU
+------------------------------------------------------------------
+  a) Rozpakuj ZIP. Na JEDNYM poziomie muszą leżeć: index.html, style.css,
+     skrypt.js, config.js, robots.txt, sitemap.xml, .nojekyll, assets/
+
+  b) github.com → New repository → nazwa np. mszana-odpady-tura-2 → Public → Create
+
+  c) Na stronie pustego repozytorium: "uploading an existing file"
+     → przeciągnij CAŁĄ ZAWARTOŚĆ folderu (pliki i katalog assets), nie folder nadrzędny
+     → Commit changes
+
+  d) Settings → Pages → Source: "Deploy from a branch"
+     → Branch: main, folder: / (root) → Save
+
+  e) Odczekaj 1–2 minuty. Adres:
+     https://<twoj-login>.github.io/<nazwa-repo>/
+
+  f) Wejdź i sprawdź: nagłówek, trzy karty dokumentów (01/02/03) rozwijają się,
+     zrzut protokołu widać w karcie 02.
+
+------------------------------------------------------------------
+3. WAŻNE: .nojekyll
+------------------------------------------------------------------
+  Plik zaczyna się kropką, więc Windows/macOS może go nie pokazać przy
+  przeciąganiu i wiele narzędzi ZIP pomija go domyślnie.
+  Jeśli po wgraniu strona się nie otwiera — sprawdź, czy .nojekyll jest
+  w repozytorium. Jeśli nie ma: Add file → Create new file → nazwa ".nojekyll"
+  → zostaw puste → Commit.
+
+------------------------------------------------------------------
+4. ADRESY I KANONIKAL
+------------------------------------------------------------------
+  Paczka zakłada publikację pod adresem docelowym:
+     https://mszana.info/materialy-mieszkancow-odpady-tura-2.html
+
+  Jeśli publikujesz na GitHub Pages pod innym adresem, popraw w index.html:
+     <link rel="canonical" href="...">
+     <meta property="og:url" content="...">
+  oraz w sitemap.xml: <loc>...</loc>
+
+  Linki menu i stopki prowadzą do podstron portalu mszana.info
+  (https://mszana.info/regulamin.html itd.) — to jest zamierzone: paczka
+  zawiera tylko ten jeden materiał, a nie cały serwis.
+
+------------------------------------------------------------------
+5. WERSJA JEDNOPLIKOWA
+------------------------------------------------------------------
+  material-mszana-odpady-tura2-jeden-plik.html to kompletna kopia materiału
+  w jednym pliku: CSS wklejony w <style>, skrypty inline, zrzut protokołu jako
+  data:image/png;base64. Otwiera się z dysku bez internetu i bez plików obok.
+  Nadaje się do wysłania mailem albo wgrania jako osobna strona.
+
+------------------------------------------------------------------
+6. CO ZAWIERA MATERIAŁ
+------------------------------------------------------------------
+  - pytanie administracji portalu Mszana.info + informacja o odpowiedzi radnego
+    i zgodzie autora na publikację (na wstępie)
+  - "W skrócie" — 5 ustaleń po II turze
+  - spis trzech dokumentów
+  - 01: stanowisko radnego Piotra Kuczery, Połomia 09.11.2026 (materiał nadesłany,
+    rozdz. V Regulaminu) — pełna treść w rozwijanym bloku
+  - 02: protokół z II tury, 16.11.2026 (dokument urzędowy) — treść + zrzut
+  - 03: protokół z I tury, 28.10.2026 (dokument urzędowy, załącznik do pisma)
+  - "Czego nie wiadomo", źródła (6 pozycji), korekty i sprostowania, podpis
+
+  Brak symboli urzędowych Gminy Mszana, brak zasobów zewnętrznych,
+  brak plików do pobrania poza zrzutem protokołu.

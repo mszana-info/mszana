@@ -1,39 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://mszana.info/</loc>
-    <lastmod>2026-10-19</lastmod>
-  </url>
-  <url>
-    <loc>https://mszana.info/nadeslij.html</loc>
-    <lastmod>2026-10-19</lastmod>
-  </url>
-  <url>
-    <loc>https://mszana.info/dokumenty.html</loc>
-    <lastmod>2026-10-19</lastmod>
-  </url>
-  <url>
-    <loc>https://mszana.info/pamiec.html</loc>
-    <lastmod>2026-10-19</lastmod>
-  </url>
-  <url>
-    <loc>https://mszana.info/glos.html</loc>
-    <lastmod>2026-10-19</lastmod>
-  </url>
-  <url>
-    <loc>https://mszana.info/kontakt.html</loc>
-    <lastmod>2026-10-19</lastmod>
-  </url>
-  <url>
-    <loc>https://mszana.info/regulamin.html</loc>
-    <lastmod>2026-10-19</lastmod>
-  </url>
-  <url>
-    <loc>https://mszana.info/materialy-mieszkancow.html</loc>
-    <lastmod>2026-11-01</lastmod>
-  </url>
-  <url>
-    <loc>https://mszana.info/materialy-mieszkancow-odpady.html</loc>
-    <lastmod>2026-11-01</lastmod>
+    <loc>https://mszana.info/materialy-mieszkancow-odpady-tura-2.html</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>
