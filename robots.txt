@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-# Mszana.info — material z II tury konsultacji (stanowisko radnego)
+Sitemap: https://mszana.info/sitemap.xml
