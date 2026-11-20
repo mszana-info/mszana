@@ -206,25 +206,47 @@
     var requested = false;
     function setFields(value){ fields.forEach(function(field){ field.textContent = value; }); }
     function setNote(value){ if(note){ note.textContent = value; } }
-    function requestCounter(){
-      if(requested || !endpoint){ return; }
-      requested = true;
+    /* Gdy licznik jest niedostępny (np. wdrożenie Apps Script usunięte),
+       chowamy cały blok zamiast pokazywać kreskę zwiedzającym. */
+    function hideCounter(){
+      var box = document.querySelector('.service-counter');
+      if(box){ box.hidden = true; }
+      else { setFields(''); setNote(''); }
+    }
+    function requestCounter(attempt){
+      if(!endpoint){ return; }
+      attempt = attempt || 1;
       setFields('…');
       var callback = 'mszanaCounterCallback_' + Date.now() + '_' + Math.floor(Math.random()*100000);
+      var done = false;
+      var timer = setTimeout(function(){ if(!done && attempt === 1){ fail(); } }, 9000);
+      function fail(){
+        if(done){ return; }
+        done = true;
+        clearTimeout(timer);
+        delete window[callback];
+        requested = false;
+        if(attempt < 2){
+          setTimeout(function(){ requestCounter(attempt + 1); }, 2500);
+        } else {
+          hideCounter();
+        }
+      }
       window[callback] = function(data){
+        if(done){ return; }
+        done = true;
+        clearTimeout(timer);
         var views = data && typeof data.views === 'number' ? data.views : null;
-        setFields(views === null ? '—' : new Intl.NumberFormat('pl-PL').format(views));
-        setNote(views === null ? 'Nie udało się pobrać licznika.' : 'łączna liczba odsłon serwisu');
+        if(views === null){ fail(); return; }
+        setFields(new Intl.NumberFormat('pl-PL').format(views));
+        setNote('łączna liczba odsłon serwisu');
         if(button){ button.hidden = true; }
         delete window[callback];
       };
       var script = document.createElement('script');
       script.src = endpoint + '?action=count&callback=' + encodeURIComponent(callback) + '&_=' + Date.now();
       script.async = true;
-      script.onerror = function(){
-        setFields('—'); setNote('Nie udało się pobrać licznika.');
-        delete window[callback];
-      };
+      script.onerror = fail;
       document.head.appendChild(script);
     }
     if(!fields.length){ return; }
@@ -235,7 +257,15 @@
       return;
     }
     if(button){ button.hidden = true; }
+    requested = true;
     requestCounter();
+
+    /* Ponowna próba, gdy użytkownik wróci do karty po dłuższej przerwie */
+    document.addEventListener('visibilitychange', function(){
+      if(!document.hidden && !document.querySelector('[data-view-counter]').textContent.match(/[0-9]/)){
+        requested = true; requestCounter();
+      }
+    });
   }
   initContactDelivery();
   initViewCounter();

@@ -1,4 +1,18 @@
 User-agent: *
 Allow: /
 
+# Wyszukiwarki — pełny dostęp do treści
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
 Sitemap: https://mszana.info/sitemap.xml
+Host: https://mszana.info

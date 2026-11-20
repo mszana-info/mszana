@@ -9,6 +9,16 @@
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#0f5132">
 <link rel="canonical" href="https://mszana.info/">
+<!-- Ikony, manifest i podgląd w wyszukiwarce -->
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/grafiki/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/grafiki/favicon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/grafiki/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="apple-mobile-web-app-title" content="Mszana.info">
+<meta name="application-name" content="Mszana.info">
+<meta name="format-detection" content="telephone=no">
+
 
 <!-- Open Graph -->
 <meta property="og:type" content="website">
@@ -17,8 +27,101 @@
 <meta property="og:title" content="Mszana.info — Niezależny głos mieszkańców | Mszana · Połomia · Gogołowa">
 <meta property="og:description" content="Mszana.info — niezależna platforma informacyjno-społeczna o sprawach Gminy Mszana. Regulamin serwisu, zasady przekazywania materiałów, sprostowania, dokumenty i źródła, pamięć i historia, pomoc sąsiedzka. Mszana · Połomia · Gogołowa.">
 <meta property="og:url" content="https://mszana.info/">
+<meta property="og:image" content="https://mszana.info/grafiki/og-mszana-info.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Mszana.info — Niezależny głos mieszkańców">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Mszana.info — Niezależny głos mieszkańców | Mszana · Połomia · Gogołowa">
+<meta name="twitter:description" content="Mszana.info — niezależna platforma informacyjno-społeczna o sprawach Gminy Mszana. Regulamin serwisu, zasady przekazywania materiałów, sprostowania, dokumenty i źródła, pamięć i historia, pomoc sąsiedzka. Mszana · Połomia · Gogołowa.">
+<meta name="twitter:image" content="https://mszana.info/grafiki/og-mszana-info.jpg">
 
 <link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://mszana.info/#website",
+      "url": "https://mszana.info/",
+      "name": "Mszana.info",
+      "alternateName": "Mszana.info — Niezależny głos mieszkańców",
+      "description": "Niezależna platforma informacyjno-społeczna o sprawach Gminy Mszana: Mszana, Połomia, Gogołowa.",
+      "inLanguage": "pl-PL",
+      "publisher": {
+        "@id": "https://mszana.info/#organizacja"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://mszana.info/#organizacja",
+      "name": "Mszana.info",
+      "url": "https://mszana.info/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://mszana.info/grafiki/favicon-512.png",
+        "width": 512,
+        "height": 512
+      },
+      "email": "mszanainfo@wp.pl",
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Mszana"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Połomia"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Gogołowa"
+        }
+      ],
+      "description": "Niezależna platforma informacyjno-społeczna mieszkańców Gminy Mszana. Nie jest oficjalną stroną Gminy Mszana."
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://mszana.info/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Czy Mszana.info jest oficjalną stroną Gminy Mszana?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nie. Mszana.info jest niezależną platformą informacyjno-społeczną mieszkańców Gminy Mszana. Nie jest oficjalną stroną Gminy Mszana ani jej jednostki organizacyjnej i nie jest prowadzona przez Urząd Gminy Mszana."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Jakie miejscowości obejmuje Mszana.info?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Serwis obejmuje Gminę Mszana w powiecie wodzisławskim: Mszanę, Połomię i Gogołową."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy na stronie publikowane są symbole urzędowe Gminy Mszana?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nie. Serwis nie używa herbu, flagi ani innych symboli urzędowych Gminy Mszana jako swojej identyfikacji wizualnej. Podstawa prawna: uchwała Rady Gminy Mszana Nr XXIII/38/2000 w sprawie herbu Gminy Mszana, publikowana w całości jako dokument nadesłany przez Urząd Gminy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Jakie materiały publikuje Mszana.info?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Stanowiska i uwagi mieszkańców oraz radnych do projektów uchwał, dokumenty urzędowe, relacje z sesji i sprawy zgłaszane przez mieszkańców — w formie nadesłanej, z podaniem autora lub źródła."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <a class="skip" href="#tresc">Przejdź do treści</a>
@@ -294,6 +397,22 @@
     </div>
   </div>
 </section>
+
+<!-- ================= DOKUMENT NADESŁANY: UCHWAŁA O HERBIE ================= -->
+<section id="uchwala-herb">
+  <div class="wrap">
+    <h2>Uchwała o herbie Gminy Mszana — dokument nadesłany przez Urząd Gminy</h2>
+    <p>Urząd Gminy Mszana przekazał nam uchwałę Rady Gminy Mszana w sprawie herbu Gminy Mszana.
+    Publikujemy ją w całości, w formie nadesłanej, jako dokument źródłowy — <strong>nie jest to herb
+    ani element identyfikacji wizualnej tego serwisu</strong>. Mszana.info nie używa symboli urzędowych
+    Gminy Mszana jako swojej identyfikacji wizualnej.</p>
+    <ul class="links">
+      <li><a href="dokumenty/uchwala-XXIII-38-2000-w-sprawie-herbu-gminy-mszana.pdf" target="_blank" rel="noopener">Uchwała Nr XXIII/38/2000 Rady Gminy Mszana w sprawie herbu Gminy Mszana (PDF) →</a></li>
+      <li>Dokument nadesłany przez Urząd Gminy Mszana. Publikacja w formie nadesłanej, bez zmian treści.</li>
+    </ul>
+  </div>
+</section>
+
 </main>
 
 <!-- ================= STOPKA ================= -->

@@ -1,8 +1,11 @@
-/* Mszana.info — konfiguracja wdrożenia GitHub Pages
+/* Mszana.info — konfiguracja licznika odsłon
  *
- * Po wdrożeniu Google Apps Script wklej poniżej adres kończący się na /exec.
+ * Adres wdrożenia Google Apps Script musi kończyć się na /exec.
  * Nie wpisuj tu adresu /dev ani danych logowania.
+ *
+ * Wdrożenie aktywne od 20.11.2026 (test: HTTP 200, JSONP OK).
+ * endpoint testowy: <adres>?action=peek  -> {"views":N,...}
  */
 window.MSZANA_CONFIG = {
-  APPS_SCRIPT_URL: "https://script.google.com/macros/s/AKfycbz4eY_utLHk_1VPVJ3GNHHJLydo0pLtyJFneYeHhaI3ejvPdjuA3SCrEqdI3zBJ-dIiGw/exec"
+  APPS_SCRIPT_URL: "https://script.google.com/macros/s/AKfycbyWdTvfuUIjLPm_ClR2vgulMdOTdEXjvpv4FpCuY6b11dINcypXl1OLUbImtEidojpW/exec"
 };

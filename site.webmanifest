@@ -1,0 +1,17 @@
+{
+  "name": "Mszana.info — Niezależny głos mieszkańców",
+  "short_name": "Mszana.info",
+  "description": "Niezależna platforma informacyjno-społeczna o sprawach Gminy Mszana: Mszana, Połomia, Gogołowa.",
+  "lang": "pl",
+  "dir": "ltr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f5f2eb",
+  "theme_color": "#0f5132",
+  "icons": [
+    { "src": "/grafiki/favicon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/grafiki/favicon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/grafiki/favicon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
